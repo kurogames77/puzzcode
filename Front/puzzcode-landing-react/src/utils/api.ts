@@ -58,19 +58,17 @@ async function fetchAPI(
   retryCount: number = 0
 ): Promise<any> {
   const token = getAuthToken();
-  const headers: HeadersInit = {
-    'Content-Type': 'application/json',
-    ...options.headers,
-  };
+  const headers = new Headers(options.headers ?? {});
+  headers.set('Content-Type', 'application/json');
 
   // Add auth token if available
   if (token) {
-    headers['Authorization'] = `Bearer ${token}`;
+    headers.set('Authorization', `Bearer ${token}`);
   }
 
   // Add request ID for tracking
   const requestId = `req-${Date.now()}-${Math.random().toString(36).substring(2, 9)}`;
-  headers['X-Request-ID'] = requestId;
+  headers.set('X-Request-ID', requestId);
 
   // Log request details for debugging (only in development)
   if (process.env.NODE_ENV === 'development' && endpoint.includes('/puzzle/attempt')) {

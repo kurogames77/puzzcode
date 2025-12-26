@@ -221,6 +221,7 @@ interface LeaderboardEntry {
   exp: number
   rankName: string
   achievements?: number
+  lessonsCompleted?: number
   levelsCompleted?: number
   longestStreak?: number
   multiplayerWins?: number

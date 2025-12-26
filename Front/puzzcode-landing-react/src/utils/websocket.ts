@@ -33,12 +33,14 @@ const API_BASE_URL = getApiBaseUrl();
 /**
  * WebSocket Client for Real-time Multiplayer
  */
+type Listener = (...args: unknown[]) => void;
+
 class WebSocketClient {
   private socket: Socket | null = null;
   private reconnectAttempts = 0;
   private maxReconnectAttempts = 5;
   private reconnectDelay = 1000;
-  private listeners: Map<string, Set<Function>> = new Map();
+  private listeners: Map<string, Set<Listener>> = new Map();
   private isConnected = false;
 
   /**
@@ -148,7 +150,7 @@ class WebSocketClient {
   /**
    * Register event listener
    */
-  on(event: string, callback: Function) {
+  on(event: string, callback: Listener) {
     if (!this.listeners.has(event)) {
       this.listeners.set(event, new Set());
     }
@@ -166,7 +168,7 @@ class WebSocketClient {
   /**
    * Remove event listener
    */
-  off(event: string, callback?: Function) {
+  off(event: string, callback?: Listener) {
     if (this.listeners.has(event)) {
       if (callback) {
         this.listeners.get(event)!.delete(callback);
@@ -187,7 +189,7 @@ class WebSocketClient {
   /**
    * Emit to all registered listeners for an event
    */
-  private emitToListeners(event: string, ...args: any[]) {
+  private emitToListeners(event: string, ...args: unknown[]) {
     if (this.listeners.has(event)) {
       this.listeners.get(event)!.forEach(callback => {
         try {
