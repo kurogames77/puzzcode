@@ -7,35 +7,25 @@ import {
   ErrorType 
 } from './errorHandler';
 
-// Detect API base URL - use current host if on local network, otherwise use env or localhost
+// Base URL configuration
 function getApiBaseUrl(): string {
-  // If environment variable is set, use it
+  // First check for environment variable
   if (import.meta.env.VITE_API_URL) {
     return import.meta.env.VITE_API_URL;
   }
-
-  // If running in browser, detect if we're on a local network IP
-  if (typeof window !== 'undefined') {
-    const hostname = window.location.hostname;
-    const port = window.location.port;
-    
-    // Check if hostname is a local IP (192.168.x.x, 10.x.x.x, 172.16-31.x.x, or localhost)
-    const isLocalNetwork = hostname === 'localhost' || 
-                          hostname === '127.0.0.1' ||
-                          /^192\.168\./.test(hostname) ||
-                          /^10\./.test(hostname) ||
-                          /^172\.(1[6-9]|2[0-9]|3[0-1])\./.test(hostname);
-    
-    if (isLocalNetwork) {
-      // Use the same hostname but with backend port (3001)
-      // Extract port from current URL or use default 3001
-      const backendPort = '3001';
-      return `http://${hostname}:${backendPort}/api`;
-    }
+  
+  // In development, use localhost
+  if (import.meta.env.DEV) {
+    return 'http://localhost:3001/api';
   }
-
-  // Default fallback
-  return 'http://localhost:3001/api';
+  
+  // In production, use current host
+  if (typeof window !== 'undefined') {
+    return `${window.location.protocol}//${window.location.host}/api`;
+  }
+  
+  // Fallback
+  return 'https://puzzcode-backend-2.vercel.app/api';
 }
 
 const API_BASE_URL = getApiBaseUrl();
