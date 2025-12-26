@@ -1,0 +1,34 @@
+// Brand colors (same for both themes)
+$brand-primary: #7b5cff;
+$brand-neon: #b388ff;
+$brand-cyan: #22e1ff;
+$brand-blue: #1e4cff;
+$brand-purple: #8a2be2;
+
+// Dark theme (default)
+$bg-deep: #0a0711;
+$bg-panel: #140b1f;
+$bg-input: #1a0f2a;
+$text-primary: #eae6ff;
+$text-muted: #bcb2d9;
+$text-secondary: #9c8bb8;
+
+$shadow-glow: 0 0 40px rgba(123, 92, 255, 0.35), 0 0 90px rgba(179, 136, 255, 0.25);
+
+$gradient-hero: radial-gradient( circle at 50% 25%, rgba(123, 92, 255, 0.25), rgba(10,7,17,0) 40% ),
+                radial-gradient( circle at 50% 0%, rgba(179,136,255,0.22), rgba(10,7,17,0) 55% );
+
+// Futuristic neon sweep used for hovers and borders
+$gradient-neon: linear-gradient(90deg, rgba($brand-purple,0.9), rgba($brand-blue,0.9), rgba($brand-cyan,0.9));
+
+// Soft holographic gradient for surfaces
+$gradient-holo: linear-gradient(135deg, rgba(138,43,226,0.16), rgba(30,76,255,0.14) 40%, rgba(34,225,255,0.12));
+
+.glow-lg {
+  box-shadow: $shadow-glow;
+}
+
+.bg-blur {
+  backdrop-filter: saturate(140%) blur(6px);
+}
+

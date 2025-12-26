@@ -1,0 +1,4686 @@
+{
+  "datasets": [
+    {
+      "name": "Multiplayer - 500 Players (Match Size: 5)",
+      "args": {
+        "players": [
+          {
+            "user_id": "player_001",
+            "theta": 0.26,
+            "beta": 0.33,
+            "success_count": 10,
+            "fail_count": 15,
+            "rank_name": "apprentice",
+            "completed_achievements": 5
+          },
+          {
+            "user_id": "player_002",
+            "theta": 0.58,
+            "beta": 0.57,
+            "success_count": 26,
+            "fail_count": 12,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 11
+          },
+          {
+            "user_id": "player_003",
+            "theta": 0.85,
+            "beta": 0.69,
+            "success_count": 83,
+            "fail_count": 6,
+            "rank_name": "code_overlord",
+            "completed_achievements": 29
+          },
+          {
+            "user_id": "player_004",
+            "theta": 0.9,
+            "beta": 0.69,
+            "success_count": 80,
+            "fail_count": 5,
+            "rank_name": "code_overlord",
+            "completed_achievements": 30
+          },
+          {
+            "user_id": "player_005",
+            "theta": 0.76,
+            "beta": 0.57,
+            "success_count": 47,
+            "fail_count": 8,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 25
+          },
+          {
+            "user_id": "player_006",
+            "theta": 0.35,
+            "beta": 0.5,
+            "success_count": 27,
+            "fail_count": 5,
+            "rank_name": "silver_coder",
+            "completed_achievements": 7
+          },
+          {
+            "user_id": "player_007",
+            "theta": 0.85,
+            "beta": 0.76,
+            "success_count": 66,
+            "fail_count": 6,
+            "rank_name": "grandmaster_dev",
+            "completed_achievements": 24
+          },
+          {
+            "user_id": "player_008",
+            "theta": 0.78,
+            "beta": 0.55,
+            "success_count": 57,
+            "fail_count": 8,
+            "rank_name": "gold_developer",
+            "completed_achievements": 20
+          },
+          {
+            "user_id": "player_009",
+            "theta": 0.34,
+            "beta": 0.47,
+            "success_count": 20,
+            "fail_count": 14,
+            "rank_name": "silver_coder",
+            "completed_achievements": 13
+          },
+          {
+            "user_id": "player_010",
+            "theta": 0.66,
+            "beta": 0.59,
+            "success_count": 70,
+            "fail_count": 7,
+            "rank_name": "gold_developer",
+            "completed_achievements": 21
+          },
+          {
+            "user_id": "player_011",
+            "theta": 0.89,
+            "beta": 0.77,
+            "success_count": 62,
+            "fail_count": 6,
+            "rank_name": "master_coder",
+            "completed_achievements": 24
+          },
+          {
+            "user_id": "player_012",
+            "theta": 0.28,
+            "beta": 0.43,
+            "success_count": 12,
+            "fail_count": 18,
+            "rank_name": "apprentice",
+            "completed_achievements": 1
+          },
+          {
+            "user_id": "player_013",
+            "theta": 0.52,
+            "beta": 0.57,
+            "success_count": 38,
+            "fail_count": 8,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 15
+          },
+          {
+            "user_id": "player_014",
+            "theta": 0.31,
+            "beta": 0.56,
+            "success_count": 28,
+            "fail_count": 8,
+            "rank_name": "silver_coder",
+            "completed_achievements": 9
+          },
+          {
+            "user_id": "player_015",
+            "theta": 0.83,
+            "beta": 0.7,
+            "success_count": 67,
+            "fail_count": 4,
+            "rank_name": "code_overlord",
+            "completed_achievements": 20
+          },
+          {
+            "user_id": "player_016",
+            "theta": 0.62,
+            "beta": 0.65,
+            "success_count": 33,
+            "fail_count": 6,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 16
+          },
+          {
+            "user_id": "player_017",
+            "theta": 0.94,
+            "beta": 0.65,
+            "success_count": 96,
+            "fail_count": 6,
+            "rank_name": "code_overlord",
+            "completed_achievements": 24
+          },
+          {
+            "user_id": "player_018",
+            "theta": 0.18,
+            "beta": 0.45,
+            "success_count": 11,
+            "fail_count": 5,
+            "rank_name": "apprentice",
+            "completed_achievements": 1
+          },
+          {
+            "user_id": "player_019",
+            "theta": 0.81,
+            "beta": 0.74,
+            "success_count": 62,
+            "fail_count": 5,
+            "rank_name": "grandmaster_dev",
+            "completed_achievements": 29
+          },
+          {
+            "user_id": "player_020",
+            "theta": 0.73,
+            "beta": 0.53,
+            "success_count": 34,
+            "fail_count": 10,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 25
+          },
+          {
+            "user_id": "player_021",
+            "theta": 0.94,
+            "beta": 0.7,
+            "success_count": 100,
+            "fail_count": 3,
+            "rank_name": "master_coder",
+            "completed_achievements": 30
+          },
+          {
+            "user_id": "player_022",
+            "theta": 0.4,
+            "beta": 0.54,
+            "success_count": 20,
+            "fail_count": 12,
+            "rank_name": "silver_coder",
+            "completed_achievements": 8
+          },
+          {
+            "user_id": "player_023",
+            "theta": 0.35,
+            "beta": 0.45,
+            "success_count": 36,
+            "fail_count": 9,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 11
+          },
+          {
+            "user_id": "player_024",
+            "theta": 0.83,
+            "beta": 0.6,
+            "success_count": 95,
+            "fail_count": 5,
+            "rank_name": "code_overlord",
+            "completed_achievements": 22
+          },
+          {
+            "user_id": "player_025",
+            "theta": 0.22,
+            "beta": 0.38,
+            "success_count": 0,
+            "fail_count": 9,
+            "rank_name": "apprentice",
+            "completed_achievements": 0
+          },
+          {
+            "user_id": "player_026",
+            "theta": 0.19,
+            "beta": 0.39,
+            "success_count": 14,
+            "fail_count": 15,
+            "rank_name": "novice",
+            "completed_achievements": 2
+          },
+          {
+            "user_id": "player_027",
+            "theta": 0.21,
+            "beta": 0.48,
+            "success_count": 13,
+            "fail_count": 15,
+            "rank_name": "novice",
+            "completed_achievements": 4
+          },
+          {
+            "user_id": "player_028",
+            "theta": 0.7,
+            "beta": 0.62,
+            "success_count": 42,
+            "fail_count": 7,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 19
+          },
+          {
+            "user_id": "player_029",
+            "theta": 0.66,
+            "beta": 0.65,
+            "success_count": 50,
+            "fail_count": 6,
+            "rank_name": "gold_developer",
+            "completed_achievements": 17
+          },
+          {
+            "user_id": "player_030",
+            "theta": 0.88,
+            "beta": 0.77,
+            "success_count": 78,
+            "fail_count": 5,
+            "rank_name": "master_coder",
+            "completed_achievements": 20
+          },
+          {
+            "user_id": "player_031",
+            "theta": 0.25,
+            "beta": 0.44,
+            "success_count": 9,
+            "fail_count": 15,
+            "rank_name": "apprentice",
+            "completed_achievements": 1
+          },
+          {
+            "user_id": "player_032",
+            "theta": 0.17,
+            "beta": 0.42,
+            "success_count": 5,
+            "fail_count": 16,
+            "rank_name": "novice",
+            "completed_achievements": 5
+          },
+          {
+            "user_id": "player_033",
+            "theta": 0.23,
+            "beta": 0.36,
+            "success_count": 13,
+            "fail_count": 8,
+            "rank_name": "novice",
+            "completed_achievements": 3
+          },
+          {
+            "user_id": "player_034",
+            "theta": 0.25,
+            "beta": 0.44,
+            "success_count": 14,
+            "fail_count": 10,
+            "rank_name": "apprentice",
+            "completed_achievements": 1
+          },
+          {
+            "user_id": "player_035",
+            "theta": 0.31,
+            "beta": 0.45,
+            "success_count": 15,
+            "fail_count": 9,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 13
+          },
+          {
+            "user_id": "player_036",
+            "theta": 0.73,
+            "beta": 0.67,
+            "success_count": 60,
+            "fail_count": 2,
+            "rank_name": "gold_developer",
+            "completed_achievements": 17
+          },
+          {
+            "user_id": "player_037",
+            "theta": 0.44,
+            "beta": 0.51,
+            "success_count": 25,
+            "fail_count": 14,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 10
+          },
+          {
+            "user_id": "player_038",
+            "theta": 0.26,
+            "beta": 0.45,
+            "success_count": 0,
+            "fail_count": 17,
+            "rank_name": "apprentice",
+            "completed_achievements": 1
+          },
+          {
+            "user_id": "player_039",
+            "theta": 0.69,
+            "beta": 0.57,
+            "success_count": 54,
+            "fail_count": 5,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 23
+          },
+          {
+            "user_id": "player_040",
+            "theta": 0.53,
+            "beta": 0.41,
+            "success_count": 19,
+            "fail_count": 10,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 9
+          },
+          {
+            "user_id": "player_041",
+            "theta": 0.6,
+            "beta": 0.51,
+            "success_count": 69,
+            "fail_count": 9,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 23
+          },
+          {
+            "user_id": "player_042",
+            "theta": 0.62,
+            "beta": 0.62,
+            "success_count": 63,
+            "fail_count": 6,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 19
+          },
+          {
+            "user_id": "player_043",
+            "theta": 0.31,
+            "beta": 0.46,
+            "success_count": 24,
+            "fail_count": 8,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 5
+          },
+          {
+            "user_id": "player_044",
+            "theta": 0.35,
+            "beta": 0.5,
+            "success_count": 34,
+            "fail_count": 10,
+            "rank_name": "silver_coder",
+            "completed_achievements": 12
+          },
+          {
+            "user_id": "player_045",
+            "theta": 0.14,
+            "beta": 0.33,
+            "success_count": 11,
+            "fail_count": 19,
+            "rank_name": "apprentice",
+            "completed_achievements": 3
+          },
+          {
+            "user_id": "player_046",
+            "theta": 0.93,
+            "beta": 0.64,
+            "success_count": 89,
+            "fail_count": 5,
+            "rank_name": "code_overlord",
+            "completed_achievements": 27
+          },
+          {
+            "user_id": "player_047",
+            "theta": 0.92,
+            "beta": 0.77,
+            "success_count": 74,
+            "fail_count": 4,
+            "rank_name": "code_overlord",
+            "completed_achievements": 26
+          },
+          {
+            "user_id": "player_048",
+            "theta": 0.88,
+            "beta": 0.72,
+            "success_count": 89,
+            "fail_count": 8,
+            "rank_name": "grandmaster_dev",
+            "completed_achievements": 25
+          },
+          {
+            "user_id": "player_049",
+            "theta": 0.44,
+            "beta": 0.46,
+            "success_count": 33,
+            "fail_count": 11,
+            "rank_name": "silver_coder",
+            "completed_achievements": 9
+          },
+          {
+            "user_id": "player_050",
+            "theta": 0.22,
+            "beta": 0.44,
+            "success_count": 15,
+            "fail_count": 12,
+            "rank_name": "novice",
+            "completed_achievements": 0
+          },
+          {
+            "user_id": "player_051",
+            "theta": 0.72,
+            "beta": 0.67,
+            "success_count": 41,
+            "fail_count": 6,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 23
+          },
+          {
+            "user_id": "player_052",
+            "theta": 0.87,
+            "beta": 0.62,
+            "success_count": 88,
+            "fail_count": 8,
+            "rank_name": "master_coder",
+            "completed_achievements": 30
+          },
+          {
+            "user_id": "player_053",
+            "theta": 0.22,
+            "beta": 0.44,
+            "success_count": 0,
+            "fail_count": 10,
+            "rank_name": "novice",
+            "completed_achievements": 5
+          },
+          {
+            "user_id": "player_054",
+            "theta": 0.34,
+            "beta": 0.56,
+            "success_count": 38,
+            "fail_count": 7,
+            "rank_name": "silver_coder",
+            "completed_achievements": 11
+          },
+          {
+            "user_id": "player_055",
+            "theta": 0.88,
+            "beta": 0.63,
+            "success_count": 83,
+            "fail_count": 6,
+            "rank_name": "grandmaster_dev",
+            "completed_achievements": 30
+          },
+          {
+            "user_id": "player_056",
+            "theta": 0.91,
+            "beta": 0.72,
+            "success_count": 96,
+            "fail_count": 4,
+            "rank_name": "code_overlord",
+            "completed_achievements": 30
+          },
+          {
+            "user_id": "player_057",
+            "theta": 0.29,
+            "beta": 0.33,
+            "success_count": 13,
+            "fail_count": 7,
+            "rank_name": "novice",
+            "completed_achievements": 5
+          },
+          {
+            "user_id": "player_058",
+            "theta": 0.42,
+            "beta": 0.41,
+            "success_count": 34,
+            "fail_count": 10,
+            "rank_name": "silver_coder",
+            "completed_achievements": 15
+          },
+          {
+            "user_id": "player_059",
+            "theta": 0.21,
+            "beta": 0.49,
+            "success_count": 3,
+            "fail_count": 17,
+            "rank_name": "apprentice",
+            "completed_achievements": 2
+          },
+          {
+            "user_id": "player_060",
+            "theta": 0.4,
+            "beta": 0.46,
+            "success_count": 12,
+            "fail_count": 15,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 6
+          },
+          {
+            "user_id": "player_061",
+            "theta": 0.46,
+            "beta": 0.49,
+            "success_count": 37,
+            "fail_count": 5,
+            "rank_name": "silver_coder",
+            "completed_achievements": 11
+          },
+          {
+            "user_id": "player_062",
+            "theta": 0.81,
+            "beta": 0.66,
+            "success_count": 94,
+            "fail_count": 7,
+            "rank_name": "grandmaster_dev",
+            "completed_achievements": 23
+          },
+          {
+            "user_id": "player_063",
+            "theta": 0.83,
+            "beta": 0.75,
+            "success_count": 69,
+            "fail_count": 5,
+            "rank_name": "master_coder",
+            "completed_achievements": 26
+          },
+          {
+            "user_id": "player_064",
+            "theta": 0.84,
+            "beta": 0.6,
+            "success_count": 72,
+            "fail_count": 1,
+            "rank_name": "master_coder",
+            "completed_achievements": 30
+          },
+          {
+            "user_id": "player_065",
+            "theta": 0.92,
+            "beta": 0.75,
+            "success_count": 66,
+            "fail_count": 5,
+            "rank_name": "master_coder",
+            "completed_achievements": 28
+          },
+          {
+            "user_id": "player_066",
+            "theta": 0.47,
+            "beta": 0.59,
+            "success_count": 16,
+            "fail_count": 12,
+            "rank_name": "silver_coder",
+            "completed_achievements": 12
+          },
+          {
+            "user_id": "player_067",
+            "theta": 0.19,
+            "beta": 0.38,
+            "success_count": 7,
+            "fail_count": 13,
+            "rank_name": "novice",
+            "completed_achievements": 0
+          },
+          {
+            "user_id": "player_068",
+            "theta": 0.28,
+            "beta": 0.43,
+            "success_count": 15,
+            "fail_count": 20,
+            "rank_name": "novice",
+            "completed_achievements": 4
+          },
+          {
+            "user_id": "player_069",
+            "theta": 0.17,
+            "beta": 0.45,
+            "success_count": 3,
+            "fail_count": 9,
+            "rank_name": "novice",
+            "completed_achievements": 2
+          },
+          {
+            "user_id": "player_070",
+            "theta": 0.69,
+            "beta": 0.62,
+            "success_count": 61,
+            "fail_count": 5,
+            "rank_name": "gold_developer",
+            "completed_achievements": 16
+          },
+          {
+            "user_id": "player_071",
+            "theta": 0.33,
+            "beta": 0.47,
+            "success_count": 18,
+            "fail_count": 13,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 15
+          },
+          {
+            "user_id": "player_072",
+            "theta": 0.19,
+            "beta": 0.39,
+            "success_count": 15,
+            "fail_count": 19,
+            "rank_name": "novice",
+            "completed_achievements": 3
+          },
+          {
+            "user_id": "player_073",
+            "theta": 0.68,
+            "beta": 0.69,
+            "success_count": 37,
+            "fail_count": 5,
+            "rank_name": "gold_developer",
+            "completed_achievements": 15
+          },
+          {
+            "user_id": "player_074",
+            "theta": 0.16,
+            "beta": 0.32,
+            "success_count": 5,
+            "fail_count": 16,
+            "rank_name": "novice",
+            "completed_achievements": 4
+          },
+          {
+            "user_id": "player_075",
+            "theta": 0.82,
+            "beta": 0.75,
+            "success_count": 92,
+            "fail_count": 3,
+            "rank_name": "master_coder",
+            "completed_achievements": 20
+          },
+          {
+            "user_id": "player_076",
+            "theta": 0.88,
+            "beta": 0.6,
+            "success_count": 67,
+            "fail_count": 4,
+            "rank_name": "master_coder",
+            "completed_achievements": 22
+          },
+          {
+            "user_id": "player_077",
+            "theta": 0.17,
+            "beta": 0.34,
+            "success_count": 11,
+            "fail_count": 12,
+            "rank_name": "novice",
+            "completed_achievements": 5
+          },
+          {
+            "user_id": "player_078",
+            "theta": 0.24,
+            "beta": 0.44,
+            "success_count": 7,
+            "fail_count": 6,
+            "rank_name": "apprentice",
+            "completed_achievements": 5
+          },
+          {
+            "user_id": "player_079",
+            "theta": 0.5,
+            "beta": 0.54,
+            "success_count": 21,
+            "fail_count": 9,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 11
+          },
+          {
+            "user_id": "player_080",
+            "theta": 0.32,
+            "beta": 0.45,
+            "success_count": 12,
+            "fail_count": 4,
+            "rank_name": "silver_coder",
+            "completed_achievements": 6
+          },
+          {
+            "user_id": "player_081",
+            "theta": 0.84,
+            "beta": 0.63,
+            "success_count": 80,
+            "fail_count": 4,
+            "rank_name": "grandmaster_dev",
+            "completed_achievements": 24
+          },
+          {
+            "user_id": "player_082",
+            "theta": 0.56,
+            "beta": 0.51,
+            "success_count": 40,
+            "fail_count": 3,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 14
+          },
+          {
+            "user_id": "player_083",
+            "theta": 0.68,
+            "beta": 0.62,
+            "success_count": 30,
+            "fail_count": 4,
+            "rank_name": "gold_developer",
+            "completed_achievements": 24
+          },
+          {
+            "user_id": "player_084",
+            "theta": 0.46,
+            "beta": 0.44,
+            "success_count": 12,
+            "fail_count": 8,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 10
+          },
+          {
+            "user_id": "player_085",
+            "theta": 0.35,
+            "beta": 0.53,
+            "success_count": 14,
+            "fail_count": 10,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 12
+          },
+          {
+            "user_id": "player_086",
+            "theta": 0.28,
+            "beta": 0.38,
+            "success_count": 14,
+            "fail_count": 15,
+            "rank_name": "apprentice",
+            "completed_achievements": 4
+          },
+          {
+            "user_id": "player_087",
+            "theta": 0.64,
+            "beta": 0.6,
+            "success_count": 50,
+            "fail_count": 5,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 25
+          },
+          {
+            "user_id": "player_088",
+            "theta": 0.93,
+            "beta": 0.65,
+            "success_count": 78,
+            "fail_count": 4,
+            "rank_name": "code_overlord",
+            "completed_achievements": 28
+          },
+          {
+            "user_id": "player_089",
+            "theta": 0.27,
+            "beta": 0.46,
+            "success_count": 0,
+            "fail_count": 7,
+            "rank_name": "novice",
+            "completed_achievements": 2
+          },
+          {
+            "user_id": "player_090",
+            "theta": 0.77,
+            "beta": 0.61,
+            "success_count": 32,
+            "fail_count": 3,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 17
+          },
+          {
+            "user_id": "player_091",
+            "theta": 0.8,
+            "beta": 0.68,
+            "success_count": 51,
+            "fail_count": 8,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 15
+          },
+          {
+            "user_id": "player_092",
+            "theta": 0.13,
+            "beta": 0.37,
+            "success_count": 5,
+            "fail_count": 6,
+            "rank_name": "apprentice",
+            "completed_achievements": 0
+          },
+          {
+            "user_id": "player_093",
+            "theta": 0.34,
+            "beta": 0.55,
+            "success_count": 27,
+            "fail_count": 5,
+            "rank_name": "silver_coder",
+            "completed_achievements": 13
+          },
+          {
+            "user_id": "player_094",
+            "theta": 0.8,
+            "beta": 0.5,
+            "success_count": 53,
+            "fail_count": 5,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 24
+          },
+          {
+            "user_id": "player_095",
+            "theta": 0.27,
+            "beta": 0.41,
+            "success_count": 12,
+            "fail_count": 9,
+            "rank_name": "novice",
+            "completed_achievements": 1
+          },
+          {
+            "user_id": "player_096",
+            "theta": 0.55,
+            "beta": 0.52,
+            "success_count": 35,
+            "fail_count": 8,
+            "rank_name": "silver_coder",
+            "completed_achievements": 7
+          },
+          {
+            "user_id": "player_097",
+            "theta": 0.29,
+            "beta": 0.4,
+            "success_count": 11,
+            "fail_count": 11,
+            "rank_name": "novice",
+            "completed_achievements": 3
+          },
+          {
+            "user_id": "player_098",
+            "theta": 0.11,
+            "beta": 0.39,
+            "success_count": 1,
+            "fail_count": 7,
+            "rank_name": "novice",
+            "completed_achievements": 5
+          },
+          {
+            "user_id": "player_099",
+            "theta": 0.88,
+            "beta": 0.71,
+            "success_count": 93,
+            "fail_count": 2,
+            "rank_name": "grandmaster_dev",
+            "completed_achievements": 28
+          },
+          {
+            "user_id": "player_100",
+            "theta": 0.75,
+            "beta": 0.65,
+            "success_count": 50,
+            "fail_count": 10,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 24
+          },
+          {
+            "user_id": "player_101",
+            "theta": 0.64,
+            "beta": 0.55,
+            "success_count": 32,
+            "fail_count": 9,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 17
+          },
+          {
+            "user_id": "player_102",
+            "theta": 0.77,
+            "beta": 0.61,
+            "success_count": 37,
+            "fail_count": 8,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 25
+          },
+          {
+            "user_id": "player_103",
+            "theta": 0.48,
+            "beta": 0.41,
+            "success_count": 28,
+            "fail_count": 10,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 14
+          },
+          {
+            "user_id": "player_104",
+            "theta": 0.71,
+            "beta": 0.62,
+            "success_count": 45,
+            "fail_count": 10,
+            "rank_name": "gold_developer",
+            "completed_achievements": 16
+          },
+          {
+            "user_id": "player_105",
+            "theta": 0.83,
+            "beta": 0.79,
+            "success_count": 64,
+            "fail_count": 8,
+            "rank_name": "master_coder",
+            "completed_achievements": 24
+          },
+          {
+            "user_id": "player_106",
+            "theta": 0.73,
+            "beta": 0.57,
+            "success_count": 54,
+            "fail_count": 8,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 15
+          },
+          {
+            "user_id": "player_107",
+            "theta": 0.56,
+            "beta": 0.58,
+            "success_count": 26,
+            "fail_count": 12,
+            "rank_name": "silver_coder",
+            "completed_achievements": 15
+          },
+          {
+            "user_id": "player_108",
+            "theta": 0.2,
+            "beta": 0.3,
+            "success_count": 11,
+            "fail_count": 12,
+            "rank_name": "apprentice",
+            "completed_achievements": 5
+          },
+          {
+            "user_id": "player_109",
+            "theta": 0.54,
+            "beta": 0.56,
+            "success_count": 15,
+            "fail_count": 6,
+            "rank_name": "silver_coder",
+            "completed_achievements": 15
+          },
+          {
+            "user_id": "player_110",
+            "theta": 0.12,
+            "beta": 0.43,
+            "success_count": 15,
+            "fail_count": 12,
+            "rank_name": "novice",
+            "completed_achievements": 5
+          },
+          {
+            "user_id": "player_111",
+            "theta": 0.9,
+            "beta": 0.74,
+            "success_count": 100,
+            "fail_count": 4,
+            "rank_name": "code_overlord",
+            "completed_achievements": 24
+          },
+          {
+            "user_id": "player_112",
+            "theta": 0.81,
+            "beta": 0.65,
+            "success_count": 63,
+            "fail_count": 1,
+            "rank_name": "code_overlord",
+            "completed_achievements": 27
+          },
+          {
+            "user_id": "player_113",
+            "theta": 0.66,
+            "beta": 0.63,
+            "success_count": 44,
+            "fail_count": 6,
+            "rank_name": "gold_developer",
+            "completed_achievements": 17
+          },
+          {
+            "user_id": "player_114",
+            "theta": 0.84,
+            "beta": 0.79,
+            "success_count": 91,
+            "fail_count": 4,
+            "rank_name": "code_overlord",
+            "completed_achievements": 30
+          },
+          {
+            "user_id": "player_115",
+            "theta": 0.79,
+            "beta": 0.62,
+            "success_count": 52,
+            "fail_count": 3,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 25
+          },
+          {
+            "user_id": "player_116",
+            "theta": 0.87,
+            "beta": 0.64,
+            "success_count": 85,
+            "fail_count": 2,
+            "rank_name": "code_overlord",
+            "completed_achievements": 26
+          },
+          {
+            "user_id": "player_117",
+            "theta": 0.82,
+            "beta": 0.65,
+            "success_count": 90,
+            "fail_count": 4,
+            "rank_name": "code_overlord",
+            "completed_achievements": 27
+          },
+          {
+            "user_id": "player_118",
+            "theta": 0.28,
+            "beta": 0.48,
+            "success_count": 12,
+            "fail_count": 20,
+            "rank_name": "apprentice",
+            "completed_achievements": 4
+          },
+          {
+            "user_id": "player_119",
+            "theta": 0.25,
+            "beta": 0.31,
+            "success_count": 15,
+            "fail_count": 5,
+            "rank_name": "apprentice",
+            "completed_achievements": 5
+          },
+          {
+            "user_id": "player_120",
+            "theta": 0.41,
+            "beta": 0.59,
+            "success_count": 30,
+            "fail_count": 13,
+            "rank_name": "silver_coder",
+            "completed_achievements": 7
+          },
+          {
+            "user_id": "player_121",
+            "theta": 0.33,
+            "beta": 0.45,
+            "success_count": 10,
+            "fail_count": 4,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 11
+          },
+          {
+            "user_id": "player_122",
+            "theta": 0.2,
+            "beta": 0.37,
+            "success_count": 6,
+            "fail_count": 11,
+            "rank_name": "novice",
+            "completed_achievements": 1
+          },
+          {
+            "user_id": "player_123",
+            "theta": 0.36,
+            "beta": 0.55,
+            "success_count": 34,
+            "fail_count": 6,
+            "rank_name": "silver_coder",
+            "completed_achievements": 12
+          },
+          {
+            "user_id": "player_124",
+            "theta": 0.87,
+            "beta": 0.73,
+            "success_count": 88,
+            "fail_count": 8,
+            "rank_name": "master_coder",
+            "completed_achievements": 29
+          },
+          {
+            "user_id": "player_125",
+            "theta": 0.48,
+            "beta": 0.43,
+            "success_count": 27,
+            "fail_count": 4,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 7
+          },
+          {
+            "user_id": "player_126",
+            "theta": 0.76,
+            "beta": 0.6,
+            "success_count": 33,
+            "fail_count": 5,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 22
+          },
+          {
+            "user_id": "player_127",
+            "theta": 0.64,
+            "beta": 0.57,
+            "success_count": 67,
+            "fail_count": 4,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 21
+          },
+          {
+            "user_id": "player_128",
+            "theta": 0.79,
+            "beta": 0.68,
+            "success_count": 46,
+            "fail_count": 3,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 23
+          },
+          {
+            "user_id": "player_129",
+            "theta": 0.15,
+            "beta": 0.37,
+            "success_count": 9,
+            "fail_count": 16,
+            "rank_name": "apprentice",
+            "completed_achievements": 0
+          },
+          {
+            "user_id": "player_130",
+            "theta": 0.37,
+            "beta": 0.44,
+            "success_count": 13,
+            "fail_count": 4,
+            "rank_name": "silver_coder",
+            "completed_achievements": 5
+          },
+          {
+            "user_id": "player_131",
+            "theta": 0.57,
+            "beta": 0.44,
+            "success_count": 37,
+            "fail_count": 5,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 11
+          },
+          {
+            "user_id": "player_132",
+            "theta": 0.13,
+            "beta": 0.31,
+            "success_count": 4,
+            "fail_count": 12,
+            "rank_name": "apprentice",
+            "completed_achievements": 3
+          },
+          {
+            "user_id": "player_133",
+            "theta": 0.24,
+            "beta": 0.5,
+            "success_count": 6,
+            "fail_count": 13,
+            "rank_name": "novice",
+            "completed_achievements": 4
+          },
+          {
+            "user_id": "player_134",
+            "theta": 0.64,
+            "beta": 0.55,
+            "success_count": 70,
+            "fail_count": 9,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 17
+          },
+          {
+            "user_id": "player_135",
+            "theta": 0.14,
+            "beta": 0.43,
+            "success_count": 3,
+            "fail_count": 15,
+            "rank_name": "novice",
+            "completed_achievements": 1
+          },
+          {
+            "user_id": "player_136",
+            "theta": 0.86,
+            "beta": 0.62,
+            "success_count": 80,
+            "fail_count": 2,
+            "rank_name": "code_overlord",
+            "completed_achievements": 29
+          },
+          {
+            "user_id": "player_137",
+            "theta": 0.59,
+            "beta": 0.5,
+            "success_count": 29,
+            "fail_count": 13,
+            "rank_name": "silver_coder",
+            "completed_achievements": 11
+          },
+          {
+            "user_id": "player_138",
+            "theta": 0.67,
+            "beta": 0.54,
+            "success_count": 60,
+            "fail_count": 7,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 15
+          },
+          {
+            "user_id": "player_139",
+            "theta": 0.21,
+            "beta": 0.32,
+            "success_count": 7,
+            "fail_count": 9,
+            "rank_name": "apprentice",
+            "completed_achievements": 4
+          },
+          {
+            "user_id": "player_140",
+            "theta": 0.88,
+            "beta": 0.71,
+            "success_count": 87,
+            "fail_count": 5,
+            "rank_name": "master_coder",
+            "completed_achievements": 29
+          },
+          {
+            "user_id": "player_141",
+            "theta": 0.22,
+            "beta": 0.36,
+            "success_count": 10,
+            "fail_count": 19,
+            "rank_name": "apprentice",
+            "completed_achievements": 4
+          },
+          {
+            "user_id": "player_142",
+            "theta": 0.86,
+            "beta": 0.75,
+            "success_count": 83,
+            "fail_count": 7,
+            "rank_name": "grandmaster_dev",
+            "completed_achievements": 26
+          },
+          {
+            "user_id": "player_143",
+            "theta": 0.16,
+            "beta": 0.44,
+            "success_count": 11,
+            "fail_count": 7,
+            "rank_name": "novice",
+            "completed_achievements": 2
+          },
+          {
+            "user_id": "player_144",
+            "theta": 0.28,
+            "beta": 0.31,
+            "success_count": 10,
+            "fail_count": 8,
+            "rank_name": "apprentice",
+            "completed_achievements": 0
+          },
+          {
+            "user_id": "player_145",
+            "theta": 0.64,
+            "beta": 0.61,
+            "success_count": 36,
+            "fail_count": 5,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 17
+          },
+          {
+            "user_id": "player_146",
+            "theta": 0.76,
+            "beta": 0.6,
+            "success_count": 54,
+            "fail_count": 5,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 18
+          },
+          {
+            "user_id": "player_147",
+            "theta": 0.56,
+            "beta": 0.4,
+            "success_count": 37,
+            "fail_count": 7,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 14
+          },
+          {
+            "user_id": "player_148",
+            "theta": 0.6,
+            "beta": 0.55,
+            "success_count": 62,
+            "fail_count": 9,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 23
+          },
+          {
+            "user_id": "player_149",
+            "theta": 0.74,
+            "beta": 0.66,
+            "success_count": 44,
+            "fail_count": 2,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 21
+          },
+          {
+            "user_id": "player_150",
+            "theta": 0.77,
+            "beta": 0.67,
+            "success_count": 55,
+            "fail_count": 9,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 17
+          },
+          {
+            "user_id": "player_151",
+            "theta": 0.25,
+            "beta": 0.37,
+            "success_count": 1,
+            "fail_count": 11,
+            "rank_name": "novice",
+            "completed_achievements": 4
+          },
+          {
+            "user_id": "player_152",
+            "theta": 0.78,
+            "beta": 0.65,
+            "success_count": 51,
+            "fail_count": 5,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 24
+          },
+          {
+            "user_id": "player_153",
+            "theta": 0.65,
+            "beta": 0.51,
+            "success_count": 45,
+            "fail_count": 5,
+            "rank_name": "gold_developer",
+            "completed_achievements": 21
+          },
+          {
+            "user_id": "player_154",
+            "theta": 0.5,
+            "beta": 0.48,
+            "success_count": 21,
+            "fail_count": 14,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 6
+          },
+          {
+            "user_id": "player_155",
+            "theta": 0.65,
+            "beta": 0.62,
+            "success_count": 57,
+            "fail_count": 6,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 18
+          },
+          {
+            "user_id": "player_156",
+            "theta": 0.18,
+            "beta": 0.34,
+            "success_count": 1,
+            "fail_count": 18,
+            "rank_name": "novice",
+            "completed_achievements": 3
+          },
+          {
+            "user_id": "player_157",
+            "theta": 0.92,
+            "beta": 0.73,
+            "success_count": 68,
+            "fail_count": 2,
+            "rank_name": "grandmaster_dev",
+            "completed_achievements": 25
+          },
+          {
+            "user_id": "player_158",
+            "theta": 0.71,
+            "beta": 0.65,
+            "success_count": 69,
+            "fail_count": 4,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 15
+          },
+          {
+            "user_id": "player_159",
+            "theta": 0.83,
+            "beta": 0.72,
+            "success_count": 97,
+            "fail_count": 7,
+            "rank_name": "master_coder",
+            "completed_achievements": 24
+          },
+          {
+            "user_id": "player_160",
+            "theta": 0.67,
+            "beta": 0.57,
+            "success_count": 35,
+            "fail_count": 7,
+            "rank_name": "gold_developer",
+            "completed_achievements": 24
+          },
+          {
+            "user_id": "player_161",
+            "theta": 0.24,
+            "beta": 0.5,
+            "success_count": 5,
+            "fail_count": 5,
+            "rank_name": "novice",
+            "completed_achievements": 3
+          },
+          {
+            "user_id": "player_162",
+            "theta": 0.66,
+            "beta": 0.57,
+            "success_count": 65,
+            "fail_count": 9,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 19
+          },
+          {
+            "user_id": "player_163",
+            "theta": 0.62,
+            "beta": 0.61,
+            "success_count": 64,
+            "fail_count": 3,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 25
+          },
+          {
+            "user_id": "player_164",
+            "theta": 0.79,
+            "beta": 0.52,
+            "success_count": 58,
+            "fail_count": 5,
+            "rank_name": "gold_developer",
+            "completed_achievements": 19
+          },
+          {
+            "user_id": "player_165",
+            "theta": 0.89,
+            "beta": 0.64,
+            "success_count": 96,
+            "fail_count": 1,
+            "rank_name": "master_coder",
+            "completed_achievements": 28
+          },
+          {
+            "user_id": "player_166",
+            "theta": 0.66,
+            "beta": 0.63,
+            "success_count": 61,
+            "fail_count": 3,
+            "rank_name": "gold_developer",
+            "completed_achievements": 16
+          },
+          {
+            "user_id": "player_167",
+            "theta": 0.21,
+            "beta": 0.39,
+            "success_count": 5,
+            "fail_count": 11,
+            "rank_name": "apprentice",
+            "completed_achievements": 0
+          },
+          {
+            "user_id": "player_168",
+            "theta": 0.21,
+            "beta": 0.35,
+            "success_count": 3,
+            "fail_count": 19,
+            "rank_name": "apprentice",
+            "completed_achievements": 0
+          },
+          {
+            "user_id": "player_169",
+            "theta": 0.56,
+            "beta": 0.45,
+            "success_count": 21,
+            "fail_count": 10,
+            "rank_name": "silver_coder",
+            "completed_achievements": 13
+          },
+          {
+            "user_id": "player_170",
+            "theta": 0.22,
+            "beta": 0.33,
+            "success_count": 3,
+            "fail_count": 8,
+            "rank_name": "apprentice",
+            "completed_achievements": 1
+          },
+          {
+            "user_id": "player_171",
+            "theta": 0.3,
+            "beta": 0.41,
+            "success_count": 20,
+            "fail_count": 8,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 14
+          },
+          {
+            "user_id": "player_172",
+            "theta": 0.5,
+            "beta": 0.58,
+            "success_count": 14,
+            "fail_count": 8,
+            "rank_name": "silver_coder",
+            "completed_achievements": 15
+          },
+          {
+            "user_id": "player_173",
+            "theta": 0.93,
+            "beta": 0.71,
+            "success_count": 66,
+            "fail_count": 8,
+            "rank_name": "master_coder",
+            "completed_achievements": 21
+          },
+          {
+            "user_id": "player_174",
+            "theta": 0.9,
+            "beta": 0.72,
+            "success_count": 97,
+            "fail_count": 6,
+            "rank_name": "code_overlord",
+            "completed_achievements": 23
+          },
+          {
+            "user_id": "player_175",
+            "theta": 0.8,
+            "beta": 0.65,
+            "success_count": 44,
+            "fail_count": 7,
+            "rank_name": "gold_developer",
+            "completed_achievements": 19
+          },
+          {
+            "user_id": "player_176",
+            "theta": 0.79,
+            "beta": 0.56,
+            "success_count": 44,
+            "fail_count": 7,
+            "rank_name": "gold_developer",
+            "completed_achievements": 15
+          },
+          {
+            "user_id": "player_177",
+            "theta": 0.6,
+            "beta": 0.53,
+            "success_count": 51,
+            "fail_count": 10,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 18
+          },
+          {
+            "user_id": "player_178",
+            "theta": 0.68,
+            "beta": 0.56,
+            "success_count": 53,
+            "fail_count": 10,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 20
+          },
+          {
+            "user_id": "player_179",
+            "theta": 0.87,
+            "beta": 0.77,
+            "success_count": 83,
+            "fail_count": 4,
+            "rank_name": "code_overlord",
+            "completed_achievements": 25
+          },
+          {
+            "user_id": "player_180",
+            "theta": 0.33,
+            "beta": 0.6,
+            "success_count": 10,
+            "fail_count": 11,
+            "rank_name": "silver_coder",
+            "completed_achievements": 15
+          },
+          {
+            "user_id": "player_181",
+            "theta": 0.9,
+            "beta": 0.66,
+            "success_count": 73,
+            "fail_count": 6,
+            "rank_name": "master_coder",
+            "completed_achievements": 27
+          },
+          {
+            "user_id": "player_182",
+            "theta": 0.91,
+            "beta": 0.63,
+            "success_count": 83,
+            "fail_count": 3,
+            "rank_name": "grandmaster_dev",
+            "completed_achievements": 23
+          },
+          {
+            "user_id": "player_183",
+            "theta": 0.87,
+            "beta": 0.75,
+            "success_count": 99,
+            "fail_count": 2,
+            "rank_name": "grandmaster_dev",
+            "completed_achievements": 27
+          },
+          {
+            "user_id": "player_184",
+            "theta": 0.66,
+            "beta": 0.61,
+            "success_count": 39,
+            "fail_count": 5,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 15
+          },
+          {
+            "user_id": "player_185",
+            "theta": 0.86,
+            "beta": 0.7,
+            "success_count": 97,
+            "fail_count": 6,
+            "rank_name": "code_overlord",
+            "completed_achievements": 28
+          },
+          {
+            "user_id": "player_186",
+            "theta": 0.18,
+            "beta": 0.32,
+            "success_count": 0,
+            "fail_count": 13,
+            "rank_name": "novice",
+            "completed_achievements": 0
+          },
+          {
+            "user_id": "player_187",
+            "theta": 0.74,
+            "beta": 0.64,
+            "success_count": 36,
+            "fail_count": 3,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 20
+          },
+          {
+            "user_id": "player_188",
+            "theta": 0.13,
+            "beta": 0.31,
+            "success_count": 1,
+            "fail_count": 11,
+            "rank_name": "apprentice",
+            "completed_achievements": 4
+          },
+          {
+            "user_id": "player_189",
+            "theta": 0.87,
+            "beta": 0.62,
+            "success_count": 77,
+            "fail_count": 4,
+            "rank_name": "grandmaster_dev",
+            "completed_achievements": 25
+          },
+          {
+            "user_id": "player_190",
+            "theta": 0.21,
+            "beta": 0.31,
+            "success_count": 2,
+            "fail_count": 15,
+            "rank_name": "apprentice",
+            "completed_achievements": 3
+          },
+          {
+            "user_id": "player_191",
+            "theta": 0.52,
+            "beta": 0.55,
+            "success_count": 23,
+            "fail_count": 8,
+            "rank_name": "silver_coder",
+            "completed_achievements": 6
+          },
+          {
+            "user_id": "player_192",
+            "theta": 0.68,
+            "beta": 0.67,
+            "success_count": 59,
+            "fail_count": 3,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 23
+          },
+          {
+            "user_id": "player_193",
+            "theta": 0.54,
+            "beta": 0.5,
+            "success_count": 27,
+            "fail_count": 5,
+            "rank_name": "silver_coder",
+            "completed_achievements": 5
+          },
+          {
+            "user_id": "player_194",
+            "theta": 0.24,
+            "beta": 0.34,
+            "success_count": 1,
+            "fail_count": 13,
+            "rank_name": "novice",
+            "completed_achievements": 3
+          },
+          {
+            "user_id": "player_195",
+            "theta": 0.82,
+            "beta": 0.77,
+            "success_count": 60,
+            "fail_count": 1,
+            "rank_name": "code_overlord",
+            "completed_achievements": 21
+          },
+          {
+            "user_id": "player_196",
+            "theta": 0.83,
+            "beta": 0.75,
+            "success_count": 83,
+            "fail_count": 8,
+            "rank_name": "code_overlord",
+            "completed_achievements": 20
+          },
+          {
+            "user_id": "player_197",
+            "theta": 0.44,
+            "beta": 0.53,
+            "success_count": 22,
+            "fail_count": 5,
+            "rank_name": "silver_coder",
+            "completed_achievements": 8
+          },
+          {
+            "user_id": "player_198",
+            "theta": 0.89,
+            "beta": 0.75,
+            "success_count": 86,
+            "fail_count": 5,
+            "rank_name": "grandmaster_dev",
+            "completed_achievements": 23
+          },
+          {
+            "user_id": "player_199",
+            "theta": 0.77,
+            "beta": 0.66,
+            "success_count": 70,
+            "fail_count": 2,
+            "rank_name": "gold_developer",
+            "completed_achievements": 20
+          },
+          {
+            "user_id": "player_200",
+            "theta": 0.71,
+            "beta": 0.56,
+            "success_count": 47,
+            "fail_count": 4,
+            "rank_name": "gold_developer",
+            "completed_achievements": 25
+          },
+          {
+            "user_id": "player_201",
+            "theta": 0.49,
+            "beta": 0.56,
+            "success_count": 35,
+            "fail_count": 8,
+            "rank_name": "silver_coder",
+            "completed_achievements": 10
+          },
+          {
+            "user_id": "player_202",
+            "theta": 0.47,
+            "beta": 0.55,
+            "success_count": 36,
+            "fail_count": 4,
+            "rank_name": "silver_coder",
+            "completed_achievements": 13
+          },
+          {
+            "user_id": "player_203",
+            "theta": 0.65,
+            "beta": 0.58,
+            "success_count": 57,
+            "fail_count": 4,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 20
+          },
+          {
+            "user_id": "player_204",
+            "theta": 0.51,
+            "beta": 0.41,
+            "success_count": 30,
+            "fail_count": 5,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 10
+          },
+          {
+            "user_id": "player_205",
+            "theta": 0.23,
+            "beta": 0.46,
+            "success_count": 12,
+            "fail_count": 15,
+            "rank_name": "apprentice",
+            "completed_achievements": 3
+          },
+          {
+            "user_id": "player_206",
+            "theta": 0.38,
+            "beta": 0.48,
+            "success_count": 12,
+            "fail_count": 15,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 15
+          },
+          {
+            "user_id": "player_207",
+            "theta": 0.46,
+            "beta": 0.51,
+            "success_count": 38,
+            "fail_count": 8,
+            "rank_name": "silver_coder",
+            "completed_achievements": 14
+          },
+          {
+            "user_id": "player_208",
+            "theta": 0.81,
+            "beta": 0.71,
+            "success_count": 67,
+            "fail_count": 4,
+            "rank_name": "grandmaster_dev",
+            "completed_achievements": 21
+          },
+          {
+            "user_id": "player_209",
+            "theta": 0.17,
+            "beta": 0.37,
+            "success_count": 8,
+            "fail_count": 10,
+            "rank_name": "apprentice",
+            "completed_achievements": 4
+          },
+          {
+            "user_id": "player_210",
+            "theta": 0.18,
+            "beta": 0.34,
+            "success_count": 11,
+            "fail_count": 9,
+            "rank_name": "apprentice",
+            "completed_achievements": 0
+          },
+          {
+            "user_id": "player_211",
+            "theta": 0.34,
+            "beta": 0.59,
+            "success_count": 35,
+            "fail_count": 6,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 15
+          },
+          {
+            "user_id": "player_212",
+            "theta": 0.49,
+            "beta": 0.41,
+            "success_count": 20,
+            "fail_count": 12,
+            "rank_name": "silver_coder",
+            "completed_achievements": 9
+          },
+          {
+            "user_id": "player_213",
+            "theta": 0.65,
+            "beta": 0.57,
+            "success_count": 46,
+            "fail_count": 4,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 17
+          },
+          {
+            "user_id": "player_214",
+            "theta": 0.54,
+            "beta": 0.56,
+            "success_count": 26,
+            "fail_count": 9,
+            "rank_name": "silver_coder",
+            "completed_achievements": 6
+          },
+          {
+            "user_id": "player_215",
+            "theta": 0.21,
+            "beta": 0.46,
+            "success_count": 4,
+            "fail_count": 12,
+            "rank_name": "apprentice",
+            "completed_achievements": 2
+          },
+          {
+            "user_id": "player_216",
+            "theta": 0.22,
+            "beta": 0.4,
+            "success_count": 0,
+            "fail_count": 16,
+            "rank_name": "apprentice",
+            "completed_achievements": 3
+          },
+          {
+            "user_id": "player_217",
+            "theta": 0.74,
+            "beta": 0.51,
+            "success_count": 50,
+            "fail_count": 10,
+            "rank_name": "gold_developer",
+            "completed_achievements": 23
+          },
+          {
+            "user_id": "player_218",
+            "theta": 0.85,
+            "beta": 0.72,
+            "success_count": 92,
+            "fail_count": 2,
+            "rank_name": "grandmaster_dev",
+            "completed_achievements": 27
+          },
+          {
+            "user_id": "player_219",
+            "theta": 0.26,
+            "beta": 0.41,
+            "success_count": 10,
+            "fail_count": 16,
+            "rank_name": "apprentice",
+            "completed_achievements": 3
+          },
+          {
+            "user_id": "player_220",
+            "theta": 0.17,
+            "beta": 0.47,
+            "success_count": 12,
+            "fail_count": 20,
+            "rank_name": "novice",
+            "completed_achievements": 0
+          },
+          {
+            "user_id": "player_221",
+            "theta": 0.7,
+            "beta": 0.54,
+            "success_count": 42,
+            "fail_count": 2,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 22
+          },
+          {
+            "user_id": "player_222",
+            "theta": 0.71,
+            "beta": 0.65,
+            "success_count": 43,
+            "fail_count": 5,
+            "rank_name": "gold_developer",
+            "completed_achievements": 25
+          },
+          {
+            "user_id": "player_223",
+            "theta": 0.32,
+            "beta": 0.47,
+            "success_count": 34,
+            "fail_count": 14,
+            "rank_name": "silver_coder",
+            "completed_achievements": 5
+          },
+          {
+            "user_id": "player_224",
+            "theta": 0.74,
+            "beta": 0.7,
+            "success_count": 51,
+            "fail_count": 2,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 23
+          },
+          {
+            "user_id": "player_225",
+            "theta": 0.77,
+            "beta": 0.61,
+            "success_count": 32,
+            "fail_count": 4,
+            "rank_name": "gold_developer",
+            "completed_achievements": 21
+          },
+          {
+            "user_id": "player_226",
+            "theta": 0.61,
+            "beta": 0.61,
+            "success_count": 35,
+            "fail_count": 4,
+            "rank_name": "gold_developer",
+            "completed_achievements": 22
+          },
+          {
+            "user_id": "player_227",
+            "theta": 0.59,
+            "beta": 0.55,
+            "success_count": 30,
+            "fail_count": 8,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 15
+          },
+          {
+            "user_id": "player_228",
+            "theta": 0.4,
+            "beta": 0.4,
+            "success_count": 30,
+            "fail_count": 13,
+            "rank_name": "silver_coder",
+            "completed_achievements": 6
+          },
+          {
+            "user_id": "player_229",
+            "theta": 0.91,
+            "beta": 0.74,
+            "success_count": 74,
+            "fail_count": 2,
+            "rank_name": "code_overlord",
+            "completed_achievements": 24
+          },
+          {
+            "user_id": "player_230",
+            "theta": 0.78,
+            "beta": 0.58,
+            "success_count": 31,
+            "fail_count": 10,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 22
+          },
+          {
+            "user_id": "player_231",
+            "theta": 0.59,
+            "beta": 0.41,
+            "success_count": 13,
+            "fail_count": 13,
+            "rank_name": "silver_coder",
+            "completed_achievements": 10
+          },
+          {
+            "user_id": "player_232",
+            "theta": 0.74,
+            "beta": 0.55,
+            "success_count": 61,
+            "fail_count": 10,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 20
+          },
+          {
+            "user_id": "player_233",
+            "theta": 0.74,
+            "beta": 0.69,
+            "success_count": 41,
+            "fail_count": 9,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 18
+          },
+          {
+            "user_id": "player_234",
+            "theta": 0.15,
+            "beta": 0.37,
+            "success_count": 5,
+            "fail_count": 20,
+            "rank_name": "apprentice",
+            "completed_achievements": 0
+          },
+          {
+            "user_id": "player_235",
+            "theta": 0.42,
+            "beta": 0.41,
+            "success_count": 30,
+            "fail_count": 10,
+            "rank_name": "silver_coder",
+            "completed_achievements": 11
+          },
+          {
+            "user_id": "player_236",
+            "theta": 0.79,
+            "beta": 0.55,
+            "success_count": 52,
+            "fail_count": 5,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 16
+          },
+          {
+            "user_id": "player_237",
+            "theta": 0.16,
+            "beta": 0.35,
+            "success_count": 0,
+            "fail_count": 8,
+            "rank_name": "novice",
+            "completed_achievements": 1
+          },
+          {
+            "user_id": "player_238",
+            "theta": 0.9,
+            "beta": 0.63,
+            "success_count": 100,
+            "fail_count": 3,
+            "rank_name": "grandmaster_dev",
+            "completed_achievements": 28
+          },
+          {
+            "user_id": "player_239",
+            "theta": 0.94,
+            "beta": 0.62,
+            "success_count": 71,
+            "fail_count": 2,
+            "rank_name": "code_overlord",
+            "completed_achievements": 20
+          },
+          {
+            "user_id": "player_240",
+            "theta": 0.74,
+            "beta": 0.67,
+            "success_count": 59,
+            "fail_count": 8,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 20
+          },
+          {
+            "user_id": "player_241",
+            "theta": 0.26,
+            "beta": 0.34,
+            "success_count": 5,
+            "fail_count": 6,
+            "rank_name": "apprentice",
+            "completed_achievements": 0
+          },
+          {
+            "user_id": "player_242",
+            "theta": 0.63,
+            "beta": 0.52,
+            "success_count": 38,
+            "fail_count": 7,
+            "rank_name": "gold_developer",
+            "completed_achievements": 20
+          },
+          {
+            "user_id": "player_243",
+            "theta": 0.95,
+            "beta": 0.75,
+            "success_count": 67,
+            "fail_count": 3,
+            "rank_name": "grandmaster_dev",
+            "completed_achievements": 23
+          },
+          {
+            "user_id": "player_244",
+            "theta": 0.54,
+            "beta": 0.49,
+            "success_count": 35,
+            "fail_count": 3,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 8
+          },
+          {
+            "user_id": "player_245",
+            "theta": 0.43,
+            "beta": 0.45,
+            "success_count": 28,
+            "fail_count": 9,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 11
+          },
+          {
+            "user_id": "player_246",
+            "theta": 0.72,
+            "beta": 0.55,
+            "success_count": 49,
+            "fail_count": 6,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 19
+          },
+          {
+            "user_id": "player_247",
+            "theta": 0.91,
+            "beta": 0.62,
+            "success_count": 77,
+            "fail_count": 2,
+            "rank_name": "code_overlord",
+            "completed_achievements": 30
+          },
+          {
+            "user_id": "player_248",
+            "theta": 0.9,
+            "beta": 0.67,
+            "success_count": 61,
+            "fail_count": 1,
+            "rank_name": "code_overlord",
+            "completed_achievements": 29
+          },
+          {
+            "user_id": "player_249",
+            "theta": 0.49,
+            "beta": 0.48,
+            "success_count": 20,
+            "fail_count": 7,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 14
+          },
+          {
+            "user_id": "player_250",
+            "theta": 0.42,
+            "beta": 0.43,
+            "success_count": 12,
+            "fail_count": 10,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 7
+          },
+          {
+            "user_id": "player_251",
+            "theta": 0.32,
+            "beta": 0.49,
+            "success_count": 10,
+            "fail_count": 7,
+            "rank_name": "silver_coder",
+            "completed_achievements": 11
+          },
+          {
+            "user_id": "player_252",
+            "theta": 0.27,
+            "beta": 0.36,
+            "success_count": 1,
+            "fail_count": 6,
+            "rank_name": "novice",
+            "completed_achievements": 5
+          },
+          {
+            "user_id": "player_253",
+            "theta": 0.24,
+            "beta": 0.47,
+            "success_count": 12,
+            "fail_count": 12,
+            "rank_name": "apprentice",
+            "completed_achievements": 3
+          },
+          {
+            "user_id": "player_254",
+            "theta": 0.29,
+            "beta": 0.49,
+            "success_count": 12,
+            "fail_count": 15,
+            "rank_name": "apprentice",
+            "completed_achievements": 4
+          },
+          {
+            "user_id": "player_255",
+            "theta": 0.83,
+            "beta": 0.65,
+            "success_count": 86,
+            "fail_count": 1,
+            "rank_name": "grandmaster_dev",
+            "completed_achievements": 29
+          },
+          {
+            "user_id": "player_256",
+            "theta": 0.76,
+            "beta": 0.65,
+            "success_count": 52,
+            "fail_count": 10,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 16
+          },
+          {
+            "user_id": "player_257",
+            "theta": 0.16,
+            "beta": 0.36,
+            "success_count": 12,
+            "fail_count": 17,
+            "rank_name": "apprentice",
+            "completed_achievements": 4
+          },
+          {
+            "user_id": "player_258",
+            "theta": 0.28,
+            "beta": 0.49,
+            "success_count": 9,
+            "fail_count": 15,
+            "rank_name": "novice",
+            "completed_achievements": 0
+          },
+          {
+            "user_id": "player_259",
+            "theta": 0.76,
+            "beta": 0.58,
+            "success_count": 40,
+            "fail_count": 6,
+            "rank_name": "gold_developer",
+            "completed_achievements": 15
+          },
+          {
+            "user_id": "player_260",
+            "theta": 0.26,
+            "beta": 0.44,
+            "success_count": 6,
+            "fail_count": 5,
+            "rank_name": "novice",
+            "completed_achievements": 1
+          },
+          {
+            "user_id": "player_261",
+            "theta": 0.32,
+            "beta": 0.49,
+            "success_count": 35,
+            "fail_count": 7,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 7
+          },
+          {
+            "user_id": "player_262",
+            "theta": 0.62,
+            "beta": 0.52,
+            "success_count": 39,
+            "fail_count": 3,
+            "rank_name": "gold_developer",
+            "completed_achievements": 16
+          },
+          {
+            "user_id": "player_263",
+            "theta": 0.69,
+            "beta": 0.63,
+            "success_count": 56,
+            "fail_count": 2,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 21
+          },
+          {
+            "user_id": "player_264",
+            "theta": 0.89,
+            "beta": 0.75,
+            "success_count": 92,
+            "fail_count": 5,
+            "rank_name": "grandmaster_dev",
+            "completed_achievements": 20
+          },
+          {
+            "user_id": "player_265",
+            "theta": 0.35,
+            "beta": 0.52,
+            "success_count": 14,
+            "fail_count": 3,
+            "rank_name": "silver_coder",
+            "completed_achievements": 14
+          },
+          {
+            "user_id": "player_266",
+            "theta": 0.53,
+            "beta": 0.56,
+            "success_count": 10,
+            "fail_count": 9,
+            "rank_name": "silver_coder",
+            "completed_achievements": 9
+          },
+          {
+            "user_id": "player_267",
+            "theta": 0.7,
+            "beta": 0.67,
+            "success_count": 59,
+            "fail_count": 8,
+            "rank_name": "gold_developer",
+            "completed_achievements": 21
+          },
+          {
+            "user_id": "player_268",
+            "theta": 0.5,
+            "beta": 0.51,
+            "success_count": 32,
+            "fail_count": 12,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 12
+          },
+          {
+            "user_id": "player_269",
+            "theta": 0.19,
+            "beta": 0.37,
+            "success_count": 10,
+            "fail_count": 14,
+            "rank_name": "apprentice",
+            "completed_achievements": 4
+          },
+          {
+            "user_id": "player_270",
+            "theta": 0.24,
+            "beta": 0.43,
+            "success_count": 14,
+            "fail_count": 10,
+            "rank_name": "apprentice",
+            "completed_achievements": 4
+          },
+          {
+            "user_id": "player_271",
+            "theta": 0.16,
+            "beta": 0.4,
+            "success_count": 11,
+            "fail_count": 5,
+            "rank_name": "novice",
+            "completed_achievements": 3
+          },
+          {
+            "user_id": "player_272",
+            "theta": 0.77,
+            "beta": 0.67,
+            "success_count": 56,
+            "fail_count": 8,
+            "rank_name": "gold_developer",
+            "completed_achievements": 17
+          },
+          {
+            "user_id": "player_273",
+            "theta": 0.26,
+            "beta": 0.4,
+            "success_count": 11,
+            "fail_count": 12,
+            "rank_name": "novice",
+            "completed_achievements": 0
+          },
+          {
+            "user_id": "player_274",
+            "theta": 0.23,
+            "beta": 0.34,
+            "success_count": 6,
+            "fail_count": 10,
+            "rank_name": "apprentice",
+            "completed_achievements": 2
+          },
+          {
+            "user_id": "player_275",
+            "theta": 0.7,
+            "beta": 0.55,
+            "success_count": 52,
+            "fail_count": 4,
+            "rank_name": "gold_developer",
+            "completed_achievements": 24
+          },
+          {
+            "user_id": "player_276",
+            "theta": 0.91,
+            "beta": 0.62,
+            "success_count": 76,
+            "fail_count": 1,
+            "rank_name": "grandmaster_dev",
+            "completed_achievements": 30
+          },
+          {
+            "user_id": "player_277",
+            "theta": 0.77,
+            "beta": 0.53,
+            "success_count": 35,
+            "fail_count": 7,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 22
+          },
+          {
+            "user_id": "player_278",
+            "theta": 0.32,
+            "beta": 0.59,
+            "success_count": 23,
+            "fail_count": 12,
+            "rank_name": "silver_coder",
+            "completed_achievements": 14
+          },
+          {
+            "user_id": "player_279",
+            "theta": 0.7,
+            "beta": 0.59,
+            "success_count": 34,
+            "fail_count": 7,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 24
+          },
+          {
+            "user_id": "player_280",
+            "theta": 0.16,
+            "beta": 0.35,
+            "success_count": 8,
+            "fail_count": 9,
+            "rank_name": "apprentice",
+            "completed_achievements": 0
+          },
+          {
+            "user_id": "player_281",
+            "theta": 0.38,
+            "beta": 0.55,
+            "success_count": 15,
+            "fail_count": 7,
+            "rank_name": "silver_coder",
+            "completed_achievements": 8
+          },
+          {
+            "user_id": "player_282",
+            "theta": 0.77,
+            "beta": 0.69,
+            "success_count": 61,
+            "fail_count": 10,
+            "rank_name": "gold_developer",
+            "completed_achievements": 25
+          },
+          {
+            "user_id": "player_283",
+            "theta": 0.86,
+            "beta": 0.67,
+            "success_count": 66,
+            "fail_count": 7,
+            "rank_name": "master_coder",
+            "completed_achievements": 26
+          },
+          {
+            "user_id": "player_284",
+            "theta": 0.87,
+            "beta": 0.76,
+            "success_count": 86,
+            "fail_count": 1,
+            "rank_name": "grandmaster_dev",
+            "completed_achievements": 23
+          },
+          {
+            "user_id": "player_285",
+            "theta": 0.76,
+            "beta": 0.7,
+            "success_count": 66,
+            "fail_count": 7,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 21
+          },
+          {
+            "user_id": "player_286",
+            "theta": 0.17,
+            "beta": 0.33,
+            "success_count": 3,
+            "fail_count": 5,
+            "rank_name": "novice",
+            "completed_achievements": 1
+          },
+          {
+            "user_id": "player_287",
+            "theta": 0.82,
+            "beta": 0.76,
+            "success_count": 61,
+            "fail_count": 5,
+            "rank_name": "code_overlord",
+            "completed_achievements": 25
+          },
+          {
+            "user_id": "player_288",
+            "theta": 0.19,
+            "beta": 0.4,
+            "success_count": 7,
+            "fail_count": 6,
+            "rank_name": "novice",
+            "completed_achievements": 1
+          },
+          {
+            "user_id": "player_289",
+            "theta": 0.62,
+            "beta": 0.61,
+            "success_count": 54,
+            "fail_count": 3,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 24
+          },
+          {
+            "user_id": "player_290",
+            "theta": 0.75,
+            "beta": 0.55,
+            "success_count": 69,
+            "fail_count": 4,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 24
+          },
+          {
+            "user_id": "player_291",
+            "theta": 0.72,
+            "beta": 0.58,
+            "success_count": 49,
+            "fail_count": 7,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 20
+          },
+          {
+            "user_id": "player_292",
+            "theta": 0.92,
+            "beta": 0.75,
+            "success_count": 95,
+            "fail_count": 4,
+            "rank_name": "code_overlord",
+            "completed_achievements": 30
+          },
+          {
+            "user_id": "player_293",
+            "theta": 0.88,
+            "beta": 0.68,
+            "success_count": 99,
+            "fail_count": 7,
+            "rank_name": "master_coder",
+            "completed_achievements": 30
+          },
+          {
+            "user_id": "player_294",
+            "theta": 0.83,
+            "beta": 0.72,
+            "success_count": 92,
+            "fail_count": 7,
+            "rank_name": "code_overlord",
+            "completed_achievements": 26
+          },
+          {
+            "user_id": "player_295",
+            "theta": 0.87,
+            "beta": 0.69,
+            "success_count": 97,
+            "fail_count": 4,
+            "rank_name": "master_coder",
+            "completed_achievements": 25
+          },
+          {
+            "user_id": "player_296",
+            "theta": 0.77,
+            "beta": 0.5,
+            "success_count": 70,
+            "fail_count": 8,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 17
+          },
+          {
+            "user_id": "player_297",
+            "theta": 0.6,
+            "beta": 0.41,
+            "success_count": 17,
+            "fail_count": 10,
+            "rank_name": "silver_coder",
+            "completed_achievements": 7
+          },
+          {
+            "user_id": "player_298",
+            "theta": 0.63,
+            "beta": 0.58,
+            "success_count": 32,
+            "fail_count": 7,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 23
+          },
+          {
+            "user_id": "player_299",
+            "theta": 0.77,
+            "beta": 0.64,
+            "success_count": 30,
+            "fail_count": 5,
+            "rank_name": "gold_developer",
+            "completed_achievements": 17
+          },
+          {
+            "user_id": "player_300",
+            "theta": 0.92,
+            "beta": 0.62,
+            "success_count": 77,
+            "fail_count": 7,
+            "rank_name": "grandmaster_dev",
+            "completed_achievements": 27
+          },
+          {
+            "user_id": "player_301",
+            "theta": 0.92,
+            "beta": 0.64,
+            "success_count": 76,
+            "fail_count": 8,
+            "rank_name": "master_coder",
+            "completed_achievements": 22
+          },
+          {
+            "user_id": "player_302",
+            "theta": 0.87,
+            "beta": 0.66,
+            "success_count": 77,
+            "fail_count": 4,
+            "rank_name": "master_coder",
+            "completed_achievements": 25
+          },
+          {
+            "user_id": "player_303",
+            "theta": 0.48,
+            "beta": 0.53,
+            "success_count": 40,
+            "fail_count": 5,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 8
+          },
+          {
+            "user_id": "player_304",
+            "theta": 0.26,
+            "beta": 0.41,
+            "success_count": 15,
+            "fail_count": 13,
+            "rank_name": "apprentice",
+            "completed_achievements": 0
+          },
+          {
+            "user_id": "player_305",
+            "theta": 0.91,
+            "beta": 0.69,
+            "success_count": 75,
+            "fail_count": 2,
+            "rank_name": "master_coder",
+            "completed_achievements": 28
+          },
+          {
+            "user_id": "player_306",
+            "theta": 0.83,
+            "beta": 0.77,
+            "success_count": 71,
+            "fail_count": 3,
+            "rank_name": "grandmaster_dev",
+            "completed_achievements": 29
+          },
+          {
+            "user_id": "player_307",
+            "theta": 0.79,
+            "beta": 0.63,
+            "success_count": 46,
+            "fail_count": 8,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 21
+          },
+          {
+            "user_id": "player_308",
+            "theta": 0.77,
+            "beta": 0.55,
+            "success_count": 55,
+            "fail_count": 7,
+            "rank_name": "gold_developer",
+            "completed_achievements": 20
+          },
+          {
+            "user_id": "player_309",
+            "theta": 0.36,
+            "beta": 0.55,
+            "success_count": 38,
+            "fail_count": 6,
+            "rank_name": "silver_coder",
+            "completed_achievements": 10
+          },
+          {
+            "user_id": "player_310",
+            "theta": 0.15,
+            "beta": 0.32,
+            "success_count": 6,
+            "fail_count": 7,
+            "rank_name": "apprentice",
+            "completed_achievements": 3
+          },
+          {
+            "user_id": "player_311",
+            "theta": 0.16,
+            "beta": 0.4,
+            "success_count": 2,
+            "fail_count": 16,
+            "rank_name": "novice",
+            "completed_achievements": 0
+          },
+          {
+            "user_id": "player_312",
+            "theta": 0.39,
+            "beta": 0.56,
+            "success_count": 18,
+            "fail_count": 13,
+            "rank_name": "silver_coder",
+            "completed_achievements": 5
+          },
+          {
+            "user_id": "player_313",
+            "theta": 0.4,
+            "beta": 0.43,
+            "success_count": 12,
+            "fail_count": 12,
+            "rank_name": "silver_coder",
+            "completed_achievements": 11
+          },
+          {
+            "user_id": "player_314",
+            "theta": 0.22,
+            "beta": 0.43,
+            "success_count": 8,
+            "fail_count": 16,
+            "rank_name": "apprentice",
+            "completed_achievements": 4
+          },
+          {
+            "user_id": "player_315",
+            "theta": 0.23,
+            "beta": 0.38,
+            "success_count": 1,
+            "fail_count": 13,
+            "rank_name": "novice",
+            "completed_achievements": 5
+          },
+          {
+            "user_id": "player_316",
+            "theta": 0.33,
+            "beta": 0.47,
+            "success_count": 36,
+            "fail_count": 12,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 12
+          },
+          {
+            "user_id": "player_317",
+            "theta": 0.63,
+            "beta": 0.6,
+            "success_count": 65,
+            "fail_count": 4,
+            "rank_name": "gold_developer",
+            "completed_achievements": 24
+          },
+          {
+            "user_id": "player_318",
+            "theta": 0.72,
+            "beta": 0.65,
+            "success_count": 64,
+            "fail_count": 4,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 23
+          },
+          {
+            "user_id": "player_319",
+            "theta": 0.72,
+            "beta": 0.52,
+            "success_count": 62,
+            "fail_count": 8,
+            "rank_name": "gold_developer",
+            "completed_achievements": 17
+          },
+          {
+            "user_id": "player_320",
+            "theta": 0.21,
+            "beta": 0.49,
+            "success_count": 5,
+            "fail_count": 7,
+            "rank_name": "novice",
+            "completed_achievements": 3
+          },
+          {
+            "user_id": "player_321",
+            "theta": 0.27,
+            "beta": 0.31,
+            "success_count": 2,
+            "fail_count": 17,
+            "rank_name": "apprentice",
+            "completed_achievements": 0
+          },
+          {
+            "user_id": "player_322",
+            "theta": 0.73,
+            "beta": 0.5,
+            "success_count": 60,
+            "fail_count": 9,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 23
+          },
+          {
+            "user_id": "player_323",
+            "theta": 0.76,
+            "beta": 0.7,
+            "success_count": 61,
+            "fail_count": 10,
+            "rank_name": "gold_developer",
+            "completed_achievements": 18
+          },
+          {
+            "user_id": "player_324",
+            "theta": 0.66,
+            "beta": 0.69,
+            "success_count": 64,
+            "fail_count": 5,
+            "rank_name": "gold_developer",
+            "completed_achievements": 16
+          },
+          {
+            "user_id": "player_325",
+            "theta": 0.56,
+            "beta": 0.56,
+            "success_count": 22,
+            "fail_count": 7,
+            "rank_name": "silver_coder",
+            "completed_achievements": 13
+          },
+          {
+            "user_id": "player_326",
+            "theta": 0.85,
+            "beta": 0.66,
+            "success_count": 82,
+            "fail_count": 8,
+            "rank_name": "master_coder",
+            "completed_achievements": 29
+          },
+          {
+            "user_id": "player_327",
+            "theta": 0.39,
+            "beta": 0.56,
+            "success_count": 14,
+            "fail_count": 11,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 11
+          },
+          {
+            "user_id": "player_328",
+            "theta": 0.71,
+            "beta": 0.5,
+            "success_count": 38,
+            "fail_count": 6,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 25
+          },
+          {
+            "user_id": "player_329",
+            "theta": 0.3,
+            "beta": 0.46,
+            "success_count": 19,
+            "fail_count": 4,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 7
+          },
+          {
+            "user_id": "player_330",
+            "theta": 0.69,
+            "beta": 0.68,
+            "success_count": 36,
+            "fail_count": 5,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 22
+          },
+          {
+            "user_id": "player_331",
+            "theta": 0.17,
+            "beta": 0.49,
+            "success_count": 3,
+            "fail_count": 19,
+            "rank_name": "novice",
+            "completed_achievements": 4
+          },
+          {
+            "user_id": "player_332",
+            "theta": 0.54,
+            "beta": 0.47,
+            "success_count": 20,
+            "fail_count": 13,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 12
+          },
+          {
+            "user_id": "player_333",
+            "theta": 0.94,
+            "beta": 0.7,
+            "success_count": 85,
+            "fail_count": 7,
+            "rank_name": "code_overlord",
+            "completed_achievements": 28
+          },
+          {
+            "user_id": "player_334",
+            "theta": 0.76,
+            "beta": 0.69,
+            "success_count": 66,
+            "fail_count": 7,
+            "rank_name": "gold_developer",
+            "completed_achievements": 18
+          },
+          {
+            "user_id": "player_335",
+            "theta": 0.51,
+            "beta": 0.58,
+            "success_count": 27,
+            "fail_count": 15,
+            "rank_name": "silver_coder",
+            "completed_achievements": 15
+          },
+          {
+            "user_id": "player_336",
+            "theta": 0.26,
+            "beta": 0.5,
+            "success_count": 11,
+            "fail_count": 19,
+            "rank_name": "novice",
+            "completed_achievements": 2
+          },
+          {
+            "user_id": "player_337",
+            "theta": 0.17,
+            "beta": 0.32,
+            "success_count": 4,
+            "fail_count": 20,
+            "rank_name": "apprentice",
+            "completed_achievements": 0
+          },
+          {
+            "user_id": "player_338",
+            "theta": 0.92,
+            "beta": 0.79,
+            "success_count": 82,
+            "fail_count": 3,
+            "rank_name": "code_overlord",
+            "completed_achievements": 22
+          },
+          {
+            "user_id": "player_339",
+            "theta": 0.54,
+            "beta": 0.46,
+            "success_count": 14,
+            "fail_count": 8,
+            "rank_name": "silver_coder",
+            "completed_achievements": 12
+          },
+          {
+            "user_id": "player_340",
+            "theta": 0.85,
+            "beta": 0.79,
+            "success_count": 72,
+            "fail_count": 4,
+            "rank_name": "code_overlord",
+            "completed_achievements": 24
+          },
+          {
+            "user_id": "player_341",
+            "theta": 0.17,
+            "beta": 0.36,
+            "success_count": 7,
+            "fail_count": 14,
+            "rank_name": "apprentice",
+            "completed_achievements": 0
+          },
+          {
+            "user_id": "player_342",
+            "theta": 0.29,
+            "beta": 0.35,
+            "success_count": 3,
+            "fail_count": 5,
+            "rank_name": "apprentice",
+            "completed_achievements": 2
+          },
+          {
+            "user_id": "player_343",
+            "theta": 0.75,
+            "beta": 0.5,
+            "success_count": 63,
+            "fail_count": 2,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 18
+          },
+          {
+            "user_id": "player_344",
+            "theta": 0.76,
+            "beta": 0.56,
+            "success_count": 30,
+            "fail_count": 7,
+            "rank_name": "gold_developer",
+            "completed_achievements": 17
+          },
+          {
+            "user_id": "player_345",
+            "theta": 0.83,
+            "beta": 0.63,
+            "success_count": 69,
+            "fail_count": 2,
+            "rank_name": "code_overlord",
+            "completed_achievements": 30
+          },
+          {
+            "user_id": "player_346",
+            "theta": 0.44,
+            "beta": 0.43,
+            "success_count": 39,
+            "fail_count": 11,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 8
+          },
+          {
+            "user_id": "player_347",
+            "theta": 0.91,
+            "beta": 0.62,
+            "success_count": 60,
+            "fail_count": 8,
+            "rank_name": "code_overlord",
+            "completed_achievements": 25
+          },
+          {
+            "user_id": "player_348",
+            "theta": 0.85,
+            "beta": 0.7,
+            "success_count": 98,
+            "fail_count": 2,
+            "rank_name": "grandmaster_dev",
+            "completed_achievements": 26
+          },
+          {
+            "user_id": "player_349",
+            "theta": 0.93,
+            "beta": 0.62,
+            "success_count": 84,
+            "fail_count": 6,
+            "rank_name": "grandmaster_dev",
+            "completed_achievements": 29
+          },
+          {
+            "user_id": "player_350",
+            "theta": 0.66,
+            "beta": 0.56,
+            "success_count": 37,
+            "fail_count": 3,
+            "rank_name": "gold_developer",
+            "completed_achievements": 21
+          },
+          {
+            "user_id": "player_351",
+            "theta": 0.76,
+            "beta": 0.58,
+            "success_count": 48,
+            "fail_count": 3,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 25
+          },
+          {
+            "user_id": "player_352",
+            "theta": 0.78,
+            "beta": 0.66,
+            "success_count": 59,
+            "fail_count": 5,
+            "rank_name": "gold_developer",
+            "completed_achievements": 23
+          },
+          {
+            "user_id": "player_353",
+            "theta": 0.74,
+            "beta": 0.59,
+            "success_count": 33,
+            "fail_count": 10,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 15
+          },
+          {
+            "user_id": "player_354",
+            "theta": 0.69,
+            "beta": 0.68,
+            "success_count": 46,
+            "fail_count": 3,
+            "rank_name": "gold_developer",
+            "completed_achievements": 16
+          },
+          {
+            "user_id": "player_355",
+            "theta": 0.91,
+            "beta": 0.68,
+            "success_count": 76,
+            "fail_count": 8,
+            "rank_name": "code_overlord",
+            "completed_achievements": 24
+          },
+          {
+            "user_id": "player_356",
+            "theta": 0.39,
+            "beta": 0.57,
+            "success_count": 25,
+            "fail_count": 6,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 12
+          },
+          {
+            "user_id": "player_357",
+            "theta": 0.47,
+            "beta": 0.55,
+            "success_count": 14,
+            "fail_count": 14,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 13
+          },
+          {
+            "user_id": "player_358",
+            "theta": 0.12,
+            "beta": 0.43,
+            "success_count": 10,
+            "fail_count": 8,
+            "rank_name": "apprentice",
+            "completed_achievements": 1
+          },
+          {
+            "user_id": "player_359",
+            "theta": 0.56,
+            "beta": 0.48,
+            "success_count": 10,
+            "fail_count": 5,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 5
+          },
+          {
+            "user_id": "player_360",
+            "theta": 0.38,
+            "beta": 0.4,
+            "success_count": 19,
+            "fail_count": 15,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 5
+          },
+          {
+            "user_id": "player_361",
+            "theta": 0.87,
+            "beta": 0.71,
+            "success_count": 77,
+            "fail_count": 6,
+            "rank_name": "code_overlord",
+            "completed_achievements": 23
+          },
+          {
+            "user_id": "player_362",
+            "theta": 0.46,
+            "beta": 0.57,
+            "success_count": 26,
+            "fail_count": 13,
+            "rank_name": "silver_coder",
+            "completed_achievements": 12
+          },
+          {
+            "user_id": "player_363",
+            "theta": 0.35,
+            "beta": 0.47,
+            "success_count": 11,
+            "fail_count": 8,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 14
+          },
+          {
+            "user_id": "player_364",
+            "theta": 0.4,
+            "beta": 0.44,
+            "success_count": 16,
+            "fail_count": 12,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 5
+          },
+          {
+            "user_id": "player_365",
+            "theta": 0.27,
+            "beta": 0.45,
+            "success_count": 15,
+            "fail_count": 19,
+            "rank_name": "apprentice",
+            "completed_achievements": 3
+          },
+          {
+            "user_id": "player_366",
+            "theta": 0.43,
+            "beta": 0.47,
+            "success_count": 12,
+            "fail_count": 13,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 8
+          },
+          {
+            "user_id": "player_367",
+            "theta": 0.85,
+            "beta": 0.63,
+            "success_count": 81,
+            "fail_count": 3,
+            "rank_name": "master_coder",
+            "completed_achievements": 28
+          },
+          {
+            "user_id": "player_368",
+            "theta": 0.63,
+            "beta": 0.62,
+            "success_count": 37,
+            "fail_count": 9,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 24
+          },
+          {
+            "user_id": "player_369",
+            "theta": 0.17,
+            "beta": 0.32,
+            "success_count": 5,
+            "fail_count": 14,
+            "rank_name": "apprentice",
+            "completed_achievements": 3
+          },
+          {
+            "user_id": "player_370",
+            "theta": 0.1,
+            "beta": 0.36,
+            "success_count": 9,
+            "fail_count": 9,
+            "rank_name": "apprentice",
+            "completed_achievements": 2
+          },
+          {
+            "user_id": "player_371",
+            "theta": 0.11,
+            "beta": 0.39,
+            "success_count": 8,
+            "fail_count": 18,
+            "rank_name": "novice",
+            "completed_achievements": 1
+          },
+          {
+            "user_id": "player_372",
+            "theta": 0.6,
+            "beta": 0.43,
+            "success_count": 12,
+            "fail_count": 6,
+            "rank_name": "silver_coder",
+            "completed_achievements": 13
+          },
+          {
+            "user_id": "player_373",
+            "theta": 0.7,
+            "beta": 0.55,
+            "success_count": 32,
+            "fail_count": 7,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 17
+          },
+          {
+            "user_id": "player_374",
+            "theta": 0.21,
+            "beta": 0.43,
+            "success_count": 9,
+            "fail_count": 18,
+            "rank_name": "novice",
+            "completed_achievements": 5
+          },
+          {
+            "user_id": "player_375",
+            "theta": 0.5,
+            "beta": 0.45,
+            "success_count": 10,
+            "fail_count": 9,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 10
+          },
+          {
+            "user_id": "player_376",
+            "theta": 0.28,
+            "beta": 0.47,
+            "success_count": 2,
+            "fail_count": 14,
+            "rank_name": "apprentice",
+            "completed_achievements": 0
+          },
+          {
+            "user_id": "player_377",
+            "theta": 0.13,
+            "beta": 0.32,
+            "success_count": 3,
+            "fail_count": 10,
+            "rank_name": "novice",
+            "completed_achievements": 4
+          },
+          {
+            "user_id": "player_378",
+            "theta": 0.9,
+            "beta": 0.74,
+            "success_count": 72,
+            "fail_count": 2,
+            "rank_name": "master_coder",
+            "completed_achievements": 27
+          },
+          {
+            "user_id": "player_379",
+            "theta": 0.58,
+            "beta": 0.49,
+            "success_count": 32,
+            "fail_count": 4,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 12
+          },
+          {
+            "user_id": "player_380",
+            "theta": 0.1,
+            "beta": 0.47,
+            "success_count": 12,
+            "fail_count": 16,
+            "rank_name": "novice",
+            "completed_achievements": 5
+          },
+          {
+            "user_id": "player_381",
+            "theta": 0.76,
+            "beta": 0.56,
+            "success_count": 57,
+            "fail_count": 7,
+            "rank_name": "gold_developer",
+            "completed_achievements": 24
+          },
+          {
+            "user_id": "player_382",
+            "theta": 0.65,
+            "beta": 0.59,
+            "success_count": 45,
+            "fail_count": 7,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 17
+          },
+          {
+            "user_id": "player_383",
+            "theta": 0.27,
+            "beta": 0.41,
+            "success_count": 7,
+            "fail_count": 14,
+            "rank_name": "apprentice",
+            "completed_achievements": 1
+          },
+          {
+            "user_id": "player_384",
+            "theta": 0.13,
+            "beta": 0.43,
+            "success_count": 1,
+            "fail_count": 15,
+            "rank_name": "novice",
+            "completed_achievements": 5
+          },
+          {
+            "user_id": "player_385",
+            "theta": 0.75,
+            "beta": 0.62,
+            "success_count": 35,
+            "fail_count": 4,
+            "rank_name": "gold_developer",
+            "completed_achievements": 16
+          },
+          {
+            "user_id": "player_386",
+            "theta": 0.78,
+            "beta": 0.52,
+            "success_count": 46,
+            "fail_count": 3,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 19
+          },
+          {
+            "user_id": "player_387",
+            "theta": 0.63,
+            "beta": 0.55,
+            "success_count": 52,
+            "fail_count": 5,
+            "rank_name": "gold_developer",
+            "completed_achievements": 25
+          },
+          {
+            "user_id": "player_388",
+            "theta": 0.27,
+            "beta": 0.36,
+            "success_count": 0,
+            "fail_count": 7,
+            "rank_name": "novice",
+            "completed_achievements": 3
+          },
+          {
+            "user_id": "player_389",
+            "theta": 0.19,
+            "beta": 0.35,
+            "success_count": 3,
+            "fail_count": 5,
+            "rank_name": "apprentice",
+            "completed_achievements": 3
+          },
+          {
+            "user_id": "player_390",
+            "theta": 0.7,
+            "beta": 0.54,
+            "success_count": 32,
+            "fail_count": 7,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 17
+          },
+          {
+            "user_id": "player_391",
+            "theta": 0.93,
+            "beta": 0.76,
+            "success_count": 87,
+            "fail_count": 3,
+            "rank_name": "code_overlord",
+            "completed_achievements": 30
+          },
+          {
+            "user_id": "player_392",
+            "theta": 0.14,
+            "beta": 0.37,
+            "success_count": 8,
+            "fail_count": 20,
+            "rank_name": "novice",
+            "completed_achievements": 2
+          },
+          {
+            "user_id": "player_393",
+            "theta": 0.9,
+            "beta": 0.72,
+            "success_count": 69,
+            "fail_count": 2,
+            "rank_name": "grandmaster_dev",
+            "completed_achievements": 22
+          },
+          {
+            "user_id": "player_394",
+            "theta": 0.62,
+            "beta": 0.53,
+            "success_count": 58,
+            "fail_count": 7,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 21
+          },
+          {
+            "user_id": "player_395",
+            "theta": 0.26,
+            "beta": 0.31,
+            "success_count": 6,
+            "fail_count": 9,
+            "rank_name": "novice",
+            "completed_achievements": 1
+          },
+          {
+            "user_id": "player_396",
+            "theta": 0.41,
+            "beta": 0.59,
+            "success_count": 24,
+            "fail_count": 9,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 7
+          },
+          {
+            "user_id": "player_397",
+            "theta": 0.86,
+            "beta": 0.75,
+            "success_count": 98,
+            "fail_count": 6,
+            "rank_name": "grandmaster_dev",
+            "completed_achievements": 24
+          },
+          {
+            "user_id": "player_398",
+            "theta": 0.18,
+            "beta": 0.33,
+            "success_count": 6,
+            "fail_count": 9,
+            "rank_name": "apprentice",
+            "completed_achievements": 4
+          },
+          {
+            "user_id": "player_399",
+            "theta": 0.7,
+            "beta": 0.63,
+            "success_count": 68,
+            "fail_count": 3,
+            "rank_name": "gold_developer",
+            "completed_achievements": 16
+          },
+          {
+            "user_id": "player_400",
+            "theta": 0.27,
+            "beta": 0.37,
+            "success_count": 5,
+            "fail_count": 11,
+            "rank_name": "apprentice",
+            "completed_achievements": 0
+          },
+          {
+            "user_id": "player_401",
+            "theta": 0.18,
+            "beta": 0.47,
+            "success_count": 15,
+            "fail_count": 10,
+            "rank_name": "novice",
+            "completed_achievements": 4
+          },
+          {
+            "user_id": "player_402",
+            "theta": 0.21,
+            "beta": 0.33,
+            "success_count": 11,
+            "fail_count": 20,
+            "rank_name": "apprentice",
+            "completed_achievements": 4
+          },
+          {
+            "user_id": "player_403",
+            "theta": 0.57,
+            "beta": 0.55,
+            "success_count": 22,
+            "fail_count": 6,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 15
+          },
+          {
+            "user_id": "player_404",
+            "theta": 0.27,
+            "beta": 0.39,
+            "success_count": 11,
+            "fail_count": 11,
+            "rank_name": "novice",
+            "completed_achievements": 0
+          },
+          {
+            "user_id": "player_405",
+            "theta": 0.14,
+            "beta": 0.47,
+            "success_count": 4,
+            "fail_count": 20,
+            "rank_name": "novice",
+            "completed_achievements": 5
+          },
+          {
+            "user_id": "player_406",
+            "theta": 0.83,
+            "beta": 0.62,
+            "success_count": 97,
+            "fail_count": 7,
+            "rank_name": "master_coder",
+            "completed_achievements": 20
+          },
+          {
+            "user_id": "player_407",
+            "theta": 0.58,
+            "beta": 0.49,
+            "success_count": 23,
+            "fail_count": 15,
+            "rank_name": "silver_coder",
+            "completed_achievements": 14
+          },
+          {
+            "user_id": "player_408",
+            "theta": 0.28,
+            "beta": 0.36,
+            "success_count": 11,
+            "fail_count": 13,
+            "rank_name": "apprentice",
+            "completed_achievements": 0
+          },
+          {
+            "user_id": "player_409",
+            "theta": 0.25,
+            "beta": 0.42,
+            "success_count": 11,
+            "fail_count": 15,
+            "rank_name": "novice",
+            "completed_achievements": 0
+          },
+          {
+            "user_id": "player_410",
+            "theta": 0.87,
+            "beta": 0.64,
+            "success_count": 62,
+            "fail_count": 4,
+            "rank_name": "master_coder",
+            "completed_achievements": 21
+          },
+          {
+            "user_id": "player_411",
+            "theta": 0.62,
+            "beta": 0.57,
+            "success_count": 59,
+            "fail_count": 10,
+            "rank_name": "gold_developer",
+            "completed_achievements": 16
+          },
+          {
+            "user_id": "player_412",
+            "theta": 0.89,
+            "beta": 0.69,
+            "success_count": 98,
+            "fail_count": 6,
+            "rank_name": "code_overlord",
+            "completed_achievements": 20
+          },
+          {
+            "user_id": "player_413",
+            "theta": 0.19,
+            "beta": 0.33,
+            "success_count": 0,
+            "fail_count": 6,
+            "rank_name": "novice",
+            "completed_achievements": 2
+          },
+          {
+            "user_id": "player_414",
+            "theta": 0.64,
+            "beta": 0.58,
+            "success_count": 48,
+            "fail_count": 6,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 24
+          },
+          {
+            "user_id": "player_415",
+            "theta": 0.15,
+            "beta": 0.48,
+            "success_count": 11,
+            "fail_count": 13,
+            "rank_name": "novice",
+            "completed_achievements": 4
+          },
+          {
+            "user_id": "player_416",
+            "theta": 0.23,
+            "beta": 0.46,
+            "success_count": 5,
+            "fail_count": 16,
+            "rank_name": "novice",
+            "completed_achievements": 1
+          },
+          {
+            "user_id": "player_417",
+            "theta": 0.66,
+            "beta": 0.57,
+            "success_count": 70,
+            "fail_count": 3,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 23
+          },
+          {
+            "user_id": "player_418",
+            "theta": 0.91,
+            "beta": 0.74,
+            "success_count": 74,
+            "fail_count": 2,
+            "rank_name": "master_coder",
+            "completed_achievements": 21
+          },
+          {
+            "user_id": "player_419",
+            "theta": 0.51,
+            "beta": 0.46,
+            "success_count": 38,
+            "fail_count": 11,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 7
+          },
+          {
+            "user_id": "player_420",
+            "theta": 0.4,
+            "beta": 0.42,
+            "success_count": 31,
+            "fail_count": 8,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 12
+          },
+          {
+            "user_id": "player_421",
+            "theta": 0.28,
+            "beta": 0.34,
+            "success_count": 13,
+            "fail_count": 18,
+            "rank_name": "novice",
+            "completed_achievements": 3
+          },
+          {
+            "user_id": "player_422",
+            "theta": 0.83,
+            "beta": 0.72,
+            "success_count": 64,
+            "fail_count": 4,
+            "rank_name": "grandmaster_dev",
+            "completed_achievements": 28
+          },
+          {
+            "user_id": "player_423",
+            "theta": 0.28,
+            "beta": 0.3,
+            "success_count": 13,
+            "fail_count": 17,
+            "rank_name": "novice",
+            "completed_achievements": 0
+          },
+          {
+            "user_id": "player_424",
+            "theta": 0.42,
+            "beta": 0.6,
+            "success_count": 24,
+            "fail_count": 7,
+            "rank_name": "silver_coder",
+            "completed_achievements": 12
+          },
+          {
+            "user_id": "player_425",
+            "theta": 0.84,
+            "beta": 0.66,
+            "success_count": 66,
+            "fail_count": 5,
+            "rank_name": "code_overlord",
+            "completed_achievements": 25
+          },
+          {
+            "user_id": "player_426",
+            "theta": 0.72,
+            "beta": 0.62,
+            "success_count": 50,
+            "fail_count": 5,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 20
+          },
+          {
+            "user_id": "player_427",
+            "theta": 0.48,
+            "beta": 0.43,
+            "success_count": 27,
+            "fail_count": 10,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 10
+          },
+          {
+            "user_id": "player_428",
+            "theta": 0.51,
+            "beta": 0.4,
+            "success_count": 12,
+            "fail_count": 15,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 15
+          },
+          {
+            "user_id": "player_429",
+            "theta": 0.47,
+            "beta": 0.52,
+            "success_count": 24,
+            "fail_count": 7,
+            "rank_name": "silver_coder",
+            "completed_achievements": 11
+          },
+          {
+            "user_id": "player_430",
+            "theta": 0.13,
+            "beta": 0.44,
+            "success_count": 4,
+            "fail_count": 7,
+            "rank_name": "apprentice",
+            "completed_achievements": 4
+          },
+          {
+            "user_id": "player_431",
+            "theta": 0.26,
+            "beta": 0.44,
+            "success_count": 5,
+            "fail_count": 14,
+            "rank_name": "novice",
+            "completed_achievements": 2
+          },
+          {
+            "user_id": "player_432",
+            "theta": 0.28,
+            "beta": 0.48,
+            "success_count": 11,
+            "fail_count": 13,
+            "rank_name": "novice",
+            "completed_achievements": 2
+          },
+          {
+            "user_id": "player_433",
+            "theta": 0.81,
+            "beta": 0.67,
+            "success_count": 67,
+            "fail_count": 2,
+            "rank_name": "grandmaster_dev",
+            "completed_achievements": 21
+          },
+          {
+            "user_id": "player_434",
+            "theta": 0.79,
+            "beta": 0.51,
+            "success_count": 52,
+            "fail_count": 6,
+            "rank_name": "gold_developer",
+            "completed_achievements": 19
+          },
+          {
+            "user_id": "player_435",
+            "theta": 0.8,
+            "beta": 0.59,
+            "success_count": 60,
+            "fail_count": 9,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 21
+          },
+          {
+            "user_id": "player_436",
+            "theta": 0.43,
+            "beta": 0.6,
+            "success_count": 26,
+            "fail_count": 11,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 15
+          },
+          {
+            "user_id": "player_437",
+            "theta": 0.22,
+            "beta": 0.42,
+            "success_count": 2,
+            "fail_count": 19,
+            "rank_name": "novice",
+            "completed_achievements": 5
+          },
+          {
+            "user_id": "player_438",
+            "theta": 0.92,
+            "beta": 0.68,
+            "success_count": 96,
+            "fail_count": 8,
+            "rank_name": "grandmaster_dev",
+            "completed_achievements": 23
+          },
+          {
+            "user_id": "player_439",
+            "theta": 0.45,
+            "beta": 0.6,
+            "success_count": 20,
+            "fail_count": 6,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 14
+          },
+          {
+            "user_id": "player_440",
+            "theta": 0.39,
+            "beta": 0.51,
+            "success_count": 30,
+            "fail_count": 6,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 8
+          },
+          {
+            "user_id": "player_441",
+            "theta": 0.82,
+            "beta": 0.76,
+            "success_count": 62,
+            "fail_count": 3,
+            "rank_name": "master_coder",
+            "completed_achievements": 29
+          },
+          {
+            "user_id": "player_442",
+            "theta": 0.19,
+            "beta": 0.32,
+            "success_count": 5,
+            "fail_count": 7,
+            "rank_name": "novice",
+            "completed_achievements": 1
+          },
+          {
+            "user_id": "player_443",
+            "theta": 0.11,
+            "beta": 0.49,
+            "success_count": 12,
+            "fail_count": 10,
+            "rank_name": "apprentice",
+            "completed_achievements": 3
+          },
+          {
+            "user_id": "player_444",
+            "theta": 0.21,
+            "beta": 0.4,
+            "success_count": 1,
+            "fail_count": 16,
+            "rank_name": "novice",
+            "completed_achievements": 0
+          },
+          {
+            "user_id": "player_445",
+            "theta": 0.77,
+            "beta": 0.6,
+            "success_count": 62,
+            "fail_count": 4,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 23
+          },
+          {
+            "user_id": "player_446",
+            "theta": 0.5,
+            "beta": 0.6,
+            "success_count": 16,
+            "fail_count": 9,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 7
+          },
+          {
+            "user_id": "player_447",
+            "theta": 0.64,
+            "beta": 0.65,
+            "success_count": 50,
+            "fail_count": 3,
+            "rank_name": "gold_developer",
+            "completed_achievements": 22
+          },
+          {
+            "user_id": "player_448",
+            "theta": 0.15,
+            "beta": 0.49,
+            "success_count": 4,
+            "fail_count": 13,
+            "rank_name": "apprentice",
+            "completed_achievements": 1
+          },
+          {
+            "user_id": "player_449",
+            "theta": 0.15,
+            "beta": 0.37,
+            "success_count": 5,
+            "fail_count": 20,
+            "rank_name": "apprentice",
+            "completed_achievements": 1
+          },
+          {
+            "user_id": "player_450",
+            "theta": 0.41,
+            "beta": 0.56,
+            "success_count": 17,
+            "fail_count": 10,
+            "rank_name": "silver_coder",
+            "completed_achievements": 6
+          },
+          {
+            "user_id": "player_451",
+            "theta": 0.89,
+            "beta": 0.62,
+            "success_count": 70,
+            "fail_count": 7,
+            "rank_name": "master_coder",
+            "completed_achievements": 24
+          },
+          {
+            "user_id": "player_452",
+            "theta": 0.44,
+            "beta": 0.52,
+            "success_count": 19,
+            "fail_count": 5,
+            "rank_name": "silver_coder",
+            "completed_achievements": 5
+          },
+          {
+            "user_id": "player_453",
+            "theta": 0.32,
+            "beta": 0.44,
+            "success_count": 36,
+            "fail_count": 3,
+            "rank_name": "silver_coder",
+            "completed_achievements": 7
+          },
+          {
+            "user_id": "player_454",
+            "theta": 0.71,
+            "beta": 0.61,
+            "success_count": 56,
+            "fail_count": 4,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 22
+          },
+          {
+            "user_id": "player_455",
+            "theta": 0.22,
+            "beta": 0.44,
+            "success_count": 13,
+            "fail_count": 8,
+            "rank_name": "apprentice",
+            "completed_achievements": 5
+          },
+          {
+            "user_id": "player_456",
+            "theta": 0.86,
+            "beta": 0.66,
+            "success_count": 68,
+            "fail_count": 8,
+            "rank_name": "master_coder",
+            "completed_achievements": 29
+          },
+          {
+            "user_id": "player_457",
+            "theta": 0.18,
+            "beta": 0.34,
+            "success_count": 6,
+            "fail_count": 5,
+            "rank_name": "apprentice",
+            "completed_achievements": 2
+          },
+          {
+            "user_id": "player_458",
+            "theta": 0.77,
+            "beta": 0.52,
+            "success_count": 51,
+            "fail_count": 7,
+            "rank_name": "gold_developer",
+            "completed_achievements": 21
+          },
+          {
+            "user_id": "player_459",
+            "theta": 0.74,
+            "beta": 0.62,
+            "success_count": 56,
+            "fail_count": 4,
+            "rank_name": "gold_developer",
+            "completed_achievements": 25
+          },
+          {
+            "user_id": "player_460",
+            "theta": 0.8,
+            "beta": 0.73,
+            "success_count": 98,
+            "fail_count": 7,
+            "rank_name": "code_overlord",
+            "completed_achievements": 29
+          },
+          {
+            "user_id": "player_461",
+            "theta": 0.19,
+            "beta": 0.41,
+            "success_count": 1,
+            "fail_count": 17,
+            "rank_name": "apprentice",
+            "completed_achievements": 1
+          },
+          {
+            "user_id": "player_462",
+            "theta": 0.18,
+            "beta": 0.38,
+            "success_count": 11,
+            "fail_count": 5,
+            "rank_name": "apprentice",
+            "completed_achievements": 3
+          },
+          {
+            "user_id": "player_463",
+            "theta": 0.83,
+            "beta": 0.69,
+            "success_count": 79,
+            "fail_count": 3,
+            "rank_name": "code_overlord",
+            "completed_achievements": 30
+          },
+          {
+            "user_id": "player_464",
+            "theta": 0.7,
+            "beta": 0.7,
+            "success_count": 70,
+            "fail_count": 3,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 15
+          },
+          {
+            "user_id": "player_465",
+            "theta": 0.31,
+            "beta": 0.57,
+            "success_count": 28,
+            "fail_count": 4,
+            "rank_name": "silver_coder",
+            "completed_achievements": 14
+          },
+          {
+            "user_id": "player_466",
+            "theta": 0.52,
+            "beta": 0.5,
+            "success_count": 37,
+            "fail_count": 4,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 6
+          },
+          {
+            "user_id": "player_467",
+            "theta": 0.27,
+            "beta": 0.36,
+            "success_count": 2,
+            "fail_count": 12,
+            "rank_name": "apprentice",
+            "completed_achievements": 1
+          },
+          {
+            "user_id": "player_468",
+            "theta": 0.28,
+            "beta": 0.31,
+            "success_count": 0,
+            "fail_count": 8,
+            "rank_name": "novice",
+            "completed_achievements": 5
+          },
+          {
+            "user_id": "player_469",
+            "theta": 0.78,
+            "beta": 0.53,
+            "success_count": 37,
+            "fail_count": 3,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 20
+          },
+          {
+            "user_id": "player_470",
+            "theta": 0.71,
+            "beta": 0.55,
+            "success_count": 54,
+            "fail_count": 5,
+            "rank_name": "gold_developer",
+            "completed_achievements": 15
+          },
+          {
+            "user_id": "player_471",
+            "theta": 0.47,
+            "beta": 0.42,
+            "success_count": 31,
+            "fail_count": 15,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 7
+          },
+          {
+            "user_id": "player_472",
+            "theta": 0.23,
+            "beta": 0.4,
+            "success_count": 7,
+            "fail_count": 7,
+            "rank_name": "apprentice",
+            "completed_achievements": 3
+          },
+          {
+            "user_id": "player_473",
+            "theta": 0.18,
+            "beta": 0.36,
+            "success_count": 5,
+            "fail_count": 20,
+            "rank_name": "novice",
+            "completed_achievements": 5
+          },
+          {
+            "user_id": "player_474",
+            "theta": 0.15,
+            "beta": 0.46,
+            "success_count": 0,
+            "fail_count": 20,
+            "rank_name": "apprentice",
+            "completed_achievements": 1
+          },
+          {
+            "user_id": "player_475",
+            "theta": 0.26,
+            "beta": 0.48,
+            "success_count": 7,
+            "fail_count": 10,
+            "rank_name": "novice",
+            "completed_achievements": 4
+          },
+          {
+            "user_id": "player_476",
+            "theta": 0.42,
+            "beta": 0.59,
+            "success_count": 37,
+            "fail_count": 13,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 5
+          },
+          {
+            "user_id": "player_477",
+            "theta": 0.2,
+            "beta": 0.42,
+            "success_count": 2,
+            "fail_count": 8,
+            "rank_name": "apprentice",
+            "completed_achievements": 4
+          },
+          {
+            "user_id": "player_478",
+            "theta": 0.89,
+            "beta": 0.63,
+            "success_count": 82,
+            "fail_count": 8,
+            "rank_name": "master_coder",
+            "completed_achievements": 26
+          },
+          {
+            "user_id": "player_479",
+            "theta": 0.61,
+            "beta": 0.59,
+            "success_count": 32,
+            "fail_count": 10,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 19
+          },
+          {
+            "user_id": "player_480",
+            "theta": 0.83,
+            "beta": 0.63,
+            "success_count": 74,
+            "fail_count": 1,
+            "rank_name": "code_overlord",
+            "completed_achievements": 22
+          },
+          {
+            "user_id": "player_481",
+            "theta": 0.63,
+            "beta": 0.54,
+            "success_count": 43,
+            "fail_count": 8,
+            "rank_name": "gold_developer",
+            "completed_achievements": 24
+          },
+          {
+            "user_id": "player_482",
+            "theta": 0.76,
+            "beta": 0.55,
+            "success_count": 40,
+            "fail_count": 2,
+            "rank_name": "gold_developer",
+            "completed_achievements": 25
+          },
+          {
+            "user_id": "player_483",
+            "theta": 0.69,
+            "beta": 0.54,
+            "success_count": 34,
+            "fail_count": 6,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 15
+          },
+          {
+            "user_id": "player_484",
+            "theta": 0.75,
+            "beta": 0.53,
+            "success_count": 49,
+            "fail_count": 3,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 16
+          },
+          {
+            "user_id": "player_485",
+            "theta": 0.53,
+            "beta": 0.41,
+            "success_count": 19,
+            "fail_count": 4,
+            "rank_name": "silver_coder",
+            "completed_achievements": 8
+          },
+          {
+            "user_id": "player_486",
+            "theta": 0.72,
+            "beta": 0.67,
+            "success_count": 61,
+            "fail_count": 4,
+            "rank_name": "gold_developer",
+            "completed_achievements": 18
+          },
+          {
+            "user_id": "player_487",
+            "theta": 0.53,
+            "beta": 0.58,
+            "success_count": 36,
+            "fail_count": 7,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 12
+          },
+          {
+            "user_id": "player_488",
+            "theta": 0.84,
+            "beta": 0.79,
+            "success_count": 93,
+            "fail_count": 7,
+            "rank_name": "master_coder",
+            "completed_achievements": 24
+          },
+          {
+            "user_id": "player_489",
+            "theta": 0.22,
+            "beta": 0.39,
+            "success_count": 8,
+            "fail_count": 5,
+            "rank_name": "apprentice",
+            "completed_achievements": 3
+          },
+          {
+            "user_id": "player_490",
+            "theta": 0.24,
+            "beta": 0.36,
+            "success_count": 8,
+            "fail_count": 18,
+            "rank_name": "novice",
+            "completed_achievements": 5
+          },
+          {
+            "user_id": "player_491",
+            "theta": 0.77,
+            "beta": 0.6,
+            "success_count": 57,
+            "fail_count": 6,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 15
+          },
+          {
+            "user_id": "player_492",
+            "theta": 0.7,
+            "beta": 0.66,
+            "success_count": 45,
+            "fail_count": 3,
+            "rank_name": "platinum_engineer",
+            "completed_achievements": 21
+          },
+          {
+            "user_id": "player_493",
+            "theta": 0.84,
+            "beta": 0.75,
+            "success_count": 73,
+            "fail_count": 1,
+            "rank_name": "code_overlord",
+            "completed_achievements": 23
+          },
+          {
+            "user_id": "player_494",
+            "theta": 0.76,
+            "beta": 0.55,
+            "success_count": 52,
+            "fail_count": 5,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 19
+          },
+          {
+            "user_id": "player_495",
+            "theta": 0.31,
+            "beta": 0.6,
+            "success_count": 15,
+            "fail_count": 8,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 8
+          },
+          {
+            "user_id": "player_496",
+            "theta": 0.74,
+            "beta": 0.59,
+            "success_count": 48,
+            "fail_count": 9,
+            "rank_name": "gold_developer",
+            "completed_achievements": 22
+          },
+          {
+            "user_id": "player_497",
+            "theta": 0.19,
+            "beta": 0.43,
+            "success_count": 4,
+            "fail_count": 10,
+            "rank_name": "apprentice",
+            "completed_achievements": 5
+          },
+          {
+            "user_id": "player_498",
+            "theta": 0.44,
+            "beta": 0.46,
+            "success_count": 10,
+            "fail_count": 3,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 5
+          },
+          {
+            "user_id": "player_499",
+            "theta": 0.74,
+            "beta": 0.55,
+            "success_count": 68,
+            "fail_count": 7,
+            "rank_name": "diamond_hacker",
+            "completed_achievements": 25
+          },
+          {
+            "user_id": "player_500",
+            "theta": 0.33,
+            "beta": 0.45,
+            "success_count": 40,
+            "fail_count": 5,
+            "rank_name": "silver_coder",
+            "completed_achievements": 7
+          }
+        ],
+        "match_size": 5,
+        "allow_cross_cluster": true,
+        "min_match_score": 0.5
+      }
+    },
+    {
+      "name": "Puzzle - 500 Students (Unified)",
+      "buildFrom": {
+        "sourceDatasetName": "Multiplayer - 500 Players (Match Size: 5)",
+        "type": "multiplayer_to_puzzle_batch",
+        "defaults": {
+          "target_performance": 0.7,
+          "adjustment_rate": 0.1,
+          "auto_sync": true
+        }
+      }
+    },
+    {
+      "name": "Puzzle - Novice Player",
+      "args": {
+        "player_name": "Alex Johnson",
+        "theta": 0.2,
+        "beta_old": 0.5,
+        "rank_name": "novice",
+        "completed_achievements": 2,
+        "success_count": 5,
+        "fail_count": 8,
+        "target_performance": 0.7,
+        "adjustment_rate": 0.1,
+        "auto_sync": true
+      }
+    },
+    {
+      "name": "Puzzle - Intermediate Player",
+      "args": {
+        "player_name": "Sam Chen",
+        "theta": 0.5,
+        "beta_old": 0.5,
+        "rank_name": "bronze_coder",
+        "completed_achievements": 10,
+        "success_count": 15,
+        "fail_count": 5,
+        "target_performance": 0.7,
+        "adjustment_rate": 0.1,
+        "auto_sync": true
+      }
+    },
+    {
+      "name": "Puzzle - Advanced Player",
+      "args": {
+        "player_name": "Jordan Taylor",
+        "theta": 0.8,
+        "beta_old": 0.7,
+        "rank_name": "gold_developer",
+        "completed_achievements": 25,
+        "success_count": 50,
+        "fail_count": 10,
+        "target_performance": 0.7,
+        "adjustment_rate": 0.1,
+        "auto_sync": true
+      }
+    },
+    {
+      "name": "Multiplayer - 3 Players",
+      "args": {
+        "players": [
+          {
+            "user_id": "player1",
+            "theta": 0.5,
+            "beta": 0.5,
+            "success_count": 10,
+            "fail_count": 5,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 5
+          },
+          {
+            "user_id": "player2",
+            "theta": 0.6,
+            "beta": 0.4,
+            "success_count": 15,
+            "fail_count": 3,
+            "rank_name": "silver_coder",
+            "completed_achievements": 8
+          },
+          {
+            "user_id": "player3",
+            "theta": 0.4,
+            "beta": 0.6,
+            "success_count": 8,
+            "fail_count": 7,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 3
+          }
+        ],
+        "match_size": 2,
+        "allow_cross_cluster": true,
+        "min_match_score": 0.5
+      }
+    },
+    {
+      "name": "Multiplayer - 6 Players",
+      "args": {
+        "players": [
+          {
+            "user_id": "p1",
+            "theta": 0.3,
+            "beta": 0.4,
+            "success_count": 5,
+            "fail_count": 8,
+            "rank_name": "novice",
+            "completed_achievements": 2
+          },
+          {
+            "user_id": "p2",
+            "theta": 0.5,
+            "beta": 0.5,
+            "success_count": 12,
+            "fail_count": 6,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 6
+          },
+          {
+            "user_id": "p3",
+            "theta": 0.6,
+            "beta": 0.5,
+            "success_count": 18,
+            "fail_count": 4,
+            "rank_name": "silver_coder",
+            "completed_achievements": 10
+          },
+          {
+            "user_id": "p4",
+            "theta": 0.4,
+            "beta": 0.6,
+            "success_count": 8,
+            "fail_count": 9,
+            "rank_name": "bronze_coder",
+            "completed_achievements": 4
+          },
+          {
+            "user_id": "p5",
+            "theta": 0.7,
+            "beta": 0.6,
+            "success_count": 25,
+            "fail_count": 5,
+            "rank_name": "gold_developer",
+            "completed_achievements": 15
+          },
+          {
+            "user_id": "p6",
+            "theta": 0.55,
+            "beta": 0.5,
+            "success_count": 14,
+            "fail_count": 5,
+            "rank_name": "silver_coder",
+            "completed_achievements": 9
+          }
+        ],
+        "match_size": 2,
+        "allow_cross_cluster": true,
+        "min_match_score": 0.5
+      }
+    },
+    {
+      "name": "DDA - Easy Puzzle",
+      "args": {
+        "beta_old": 0.3,
+        "irt_output": {
+          "probability": 0.85,
+          "adjusted_theta": 0.6
+        },
+        "success_count": 20,
+        "fail_count": 2,
+        "target_performance": 0.7,
+        "adjustment_rate": 0.1
+      }
+    }
+  ]
+}

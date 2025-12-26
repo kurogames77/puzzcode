@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+*.env
+
+# Node
+node_modules/
+
+# Testing caches
+.pytest_cache/
+
+# Logs
+*.log
+
+# VS Code settings
+.vscode/

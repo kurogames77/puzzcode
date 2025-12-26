@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Algorithm Tester</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Algorithm Tester</h1>
+      <p>Test your Python algorithms (IRT, DDA) via API. Backend runs on port 5000.</p>
+    </header>
+
+    <main class="grid">
+      <section class="panel">
+        <h2>1) Algorithm & Configuration</h2>
+        <label class="label">Algorithm</label>
+        <select id="algorithm" class="input"></select>
+        <label class="label">Function Name</label>
+        <input id="fnName" class="input" placeholder="Select algorithm..." readonly />
+        <label class="label">Algorithm Info</label>
+        <textarea id="code" class="code" spellcheck="false" readonly></textarea>
+      </section>
+
+      <section class="panel">
+        <h2>2) Inputs</h2>
+        <div class="row">
+          <label class="label">Dataset</label>
+          <select id="dataset" class="input"></select>
+        </div>
+        <div class="row">
+          <label class="label">Arguments (JSON object)</label>
+          <textarea id="args" class="input" style="min-height: 120px; font-family: monospace; font-size: 12px;" placeholder='{"theta": 0.5, "beta": 0.5, ...}'></textarea>
+        </div>
+        <div class="row">
+          <button id="runBtn" class="btn">Run ▶</button>
+          <button id="resetBtn" class="btn secondary">Reset</button>
+        </div>
+
+        <h2 style="margin-top:16px">3) Output</h2>
+        <pre id="output" class="output">Ready.</pre>
+      </section>
+    </main>
+
+    <footer>
+      <small>Tester lives at <code>CodeForGame/Tester/</code>. Open this file directly.</small>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+  </html>
+
+
