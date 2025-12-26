@@ -16,7 +16,10 @@ const server = http.createServer(app);
 const corsOptions = {
   origin: (origin, callback) => {
     // Allow requests with no origin (like mobile apps, curl, etc.)
-    if (!origin) return callback(null, true);
+    if (!origin) {
+      console.log('No origin header present, allowing request');
+      return callback(null, true);
+    }
     
     // Define allowed origins
     const allowedOrigins = [
@@ -35,7 +38,9 @@ const corsOptions = {
 
     // In development, allow all localhost and vercel.app subdomains
     if (process.env.NODE_ENV !== 'production') {
+      console.log('Development mode: Allowing all localhost and vercel.app origins');
       if (origin.startsWith('http://localhost:') || origin.endsWith('.vercel.app')) {
+        console.log(`Allowing development origin: ${origin}`);
         return callback(null, true);
       }
     }
@@ -51,6 +56,7 @@ const corsOptions = {
     });
 
     if (isAllowed) {
+      console.log(`Allowed origin: ${origin}`);
       return callback(null, true);
     }
 
@@ -60,11 +66,38 @@ const corsOptions = {
     callback(new Error(`Not allowed by CORS. Origin: ${origin}`));
   },
   credentials: true,
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization', 'X-Request-ID', 'x-requested-with'],
-  exposedHeaders: ['Content-Range', 'X-Total-Count', 'X-Request-ID'],
-  maxAge: 600 // Cache preflight requests for 10 minutes
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS', 'PATCH'],
+  allowedHeaders: [
+    'Content-Type', 
+    'Authorization', 
+    'X-Request-ID', 
+    'x-requested-with',
+    'Accept',
+    'Origin',
+    'Access-Control-Request-Method',
+    'Access-Control-Request-Headers'
+  ],
+  exposedHeaders: [
+    'Content-Range', 
+    'X-Total-Count', 
+    'X-Request-ID',
+    'Access-Control-Allow-Origin',
+    'Access-Control-Allow-Credentials'
+  ],
+  maxAge: 600, // Cache preflight requests for 10 minutes
+  preflightContinue: false,
+  optionsSuccessStatus: 204
 };
+
+// Add request logging middleware
+app.use((req, res, next) => {
+  console.log(`[${new Date().toISOString()}] ${req.method} ${req.url}`);
+  console.log('Headers:', req.headers);
+  if (req.method === 'POST' || req.method === 'PUT') {
+    console.log('Body:', req.body);
+  }
+  next();
+});
 
 // Initialize Socket.IO with CORS
 const io = new Server(server, {

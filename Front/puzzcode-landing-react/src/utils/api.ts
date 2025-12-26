@@ -78,15 +78,25 @@ async function fetchAPI(
   };
 
   try {
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 30000); // 30 second timeout
-
-    const response = await fetch(endpoint, requestOptions);
-
-    // Handle CORS preflight
-    if (response.status === 0) {
-      throw createAPIError('Network error: CORS issue detected', 'NETWORK_ERROR', 0);
-    }
+    let response;
+    try {
+      response = await fetch(endpoint, requestOptions);
+      
+      // Log response details for debugging
+      console.log('API Response:', {
+        url: endpoint,
+        status: response.status,
+        statusText: response.statusText,
+        headers: Object.fromEntries(response.headers.entries()),
+        redirected: response.redirected,
+        type: response.type,
+        ok: response.ok
+      });
+      
+      // Handle CORS preflight
+      if (response.status === 0) {
+        throw createAPIError('Network error: CORS issue detected', 'NETWORK_ERROR', 0);
+      }
     
     // Handle 401 Unauthorized
     if (response.status === 401) {
