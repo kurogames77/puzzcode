@@ -20,21 +20,32 @@ const corsOptions = {
     
     const allowedOrigins = [
       'https://puzzcode.vercel.app',
+      'https://puzzcode-git-main-kurogames77.vercel.app',
       'http://localhost:3000',
       'http://localhost:3001',
-      ...(process.env.CORS_ORIGIN ? process.env.CORS_ORIGIN.split(',') : [])
+      ...(process.env.CORS_ORIGIN ? process.env.CORS_ORIGIN.split(',').map(s => s.trim()) : [])
     ];
 
-    if (process.env.NODE_ENV !== 'production' || allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {
-      callback(new Error('Not allowed by CORS'));
+    // Allow all subdomains of vercel.app in development
+    if (process.env.NODE_ENV === 'development' && origin.endsWith('.vercel.app')) {
+      return callback(null, true);
     }
+
+    // Check against allowed origins
+    if (allowedOrigins.includes(origin) || 
+        (process.env.NODE_ENV !== 'production' && origin.startsWith('http://localhost'))) {
+      return callback(null, true);
+    }
+
+    // Log blocked origins for debugging
+    console.log('CORS blocked origin:', origin);
+    callback(new Error('Not allowed by CORS'));
   },
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization', 'X-Request-ID'],
-  exposedHeaders: ['Content-Range', 'X-Total-Count']
+  allowedHeaders: ['Content-Type', 'Authorization', 'X-Request-ID', 'x-requested-with'],
+  exposedHeaders: ['Content-Range', 'X-Total-Count', 'X-Request-ID'],
+  maxAge: 600 // Cache preflight requests for 10 minutes
 };
 
 // Initialize Socket.IO with CORS
