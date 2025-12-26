@@ -12,24 +12,45 @@ const { startMatchmakingProcessor } = require('./services/websocketMatchmaking')
 
 const app = express();
 const server = http.createServer(app);
+// CORS Configuration
+const corsOptions = {
+  origin: (origin, callback) => {
+    // Allow requests with no origin (like mobile apps, curl, etc.)
+    if (!origin) return callback(null, true);
+    
+    const allowedOrigins = [
+      'https://puzzcode.vercel.app',
+      'http://localhost:3000',
+      'http://localhost:3001',
+      ...(process.env.CORS_ORIGIN ? process.env.CORS_ORIGIN.split(',') : [])
+    ];
+
+    if (process.env.NODE_ENV !== 'production' || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'X-Request-ID'],
+  exposedHeaders: ['Content-Range', 'X-Total-Count']
+};
+
+// Initialize Socket.IO with CORS
 const io = new Server(server, {
   cors: {
-    origin: process.env.CORS_ORIGIN || '*', // Allow all origins for local network access
+    origin: corsOptions.origin,
     methods: ['GET', 'POST'],
     credentials: true,
-    allowedHeaders: ['Authorization', 'Content-Type']
+    allowedHeaders: ['Authorization', 'Content-Type', 'X-Request-ID']
   }
 });
 
 const PORT = process.env.PORT || 3001;
 
-// Middleware
-app.use(cors({
-  origin: process.env.CORS_ORIGIN || '*', // Allow all origins for local network access
-  credentials: true,
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization', 'X-Request-ID']
-}));
+// Apply CORS middleware
+app.use(cors(corsOptions));
 
 // Increase body size limits for profile updates and file uploads
 // Default is 100kb, increase to 10MB for JSON and 50MB for URL-encoded (for file uploads)
