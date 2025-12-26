@@ -9,10 +9,15 @@ import {
 
 // Base URL configuration
 function getApiBaseUrl(): string {
-  // First check for environment variable
+  // In production, always use the production backend URL
+  if (import.meta.env.PROD || import.meta.env.VITE_ENV === 'production') {
+    return 'https://puzzcode-backend-2.vercel.app/api';
+  }
+
+  // In development, check for VITE_API_URL or use localhost
   if (import.meta.env.VITE_API_URL) {
-    // Ensure the URL doesn't end with a slash
     let url = import.meta.env.VITE_API_URL;
+    // Ensure the URL doesn't end with a slash
     if (url.endsWith('/')) {
       url = url.slice(0, -1);
     }
@@ -23,19 +28,8 @@ function getApiBaseUrl(): string {
     return url;
   }
   
-  // In development, use localhost
-  if (import.meta.env.DEV) {
-    return 'http://localhost:3001/api';
-  }
-  
-  // In production, use current host for API
-  if (typeof window !== 'undefined') {
-    const base = `${window.location.protocol}//${window.location.host}`;
-    return base.endsWith('/api') ? base : `${base}/api`;
-  }
-  
-  // Fallback to production backend
-  return 'https://puzzcode-backend-2.vercel.app/api';
+  // Default to localhost for development
+  return 'http://localhost:3001/api';
 }
 
 const API_BASE_URL = getApiBaseUrl();
