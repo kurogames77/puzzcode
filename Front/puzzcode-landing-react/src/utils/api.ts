@@ -63,74 +63,54 @@ async function fetchAPI(
 
   // Add auth token if available
   if (token) {
-    headers.set('Authorization', `Bearer ${token}`);
+    (headers as Record<string, string>).Authorization = `Bearer ${token}`;
+  }
+  
+  // Ensure we're using the correct API base URL
+  if (!endpoint.startsWith('http')) {
+    endpoint = `${API_BASE_URL}${endpoint.startsWith('/') ? '' : '/'}${endpoint}`;
   }
 
   // Add request ID for tracking
   const requestId = `req-${Date.now()}-${Math.random().toString(36).substring(2, 9)}`;
   headers.set('X-Request-ID', requestId);
 
-  // Log request details for debugging (only in development)
-  if (process.env.NODE_ENV === 'development' && endpoint.includes('/puzzle/attempt')) {
-    console.log('🌐 API Request:', {
-      endpoint: `${API_BASE_URL}${endpoint}`,
-      method: options.method || 'GET',
-      body: options.body ? JSON.parse(options.body as string) : null,
-      hasToken: !!token,
-      requestId,
-      retryCount
-    });
-  }
+  // Merge default options with provided options
+  const requestOptions: RequestInit = {
+    ...options,
+    headers,
+    credentials: 'include' as RequestCredentials,
+    mode: 'cors' as RequestMode
+  };
 
   try {
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 30000); // 30 second timeout
 
-    const response = await fetch(`${API_BASE_URL}${endpoint}`, {
-      ...options,
-      headers,
-      signal: controller.signal,
-    });
+    const response = await fetch(endpoint, requestOptions);
 
-    clearTimeout(timeoutId);
-
+    // Handle CORS preflight
+    if (response.status === 0) {
+      throw createAPIError('Network error: CORS issue detected', 'NETWORK_ERROR', 0);
+    }
+    
+    // Handle 401 Unauthorized
+    if (response.status === 401) {
+      // Handle token expiration or invalid token
+      localStorage.removeItem('auth_token');
+      window.dispatchEvent(new Event('unauthorized'));
+      throw createAPIError('Session expired. Please log in again.', 'AUTH_ERROR', 401);
+    }
+    
+    // Handle other error statuses
     if (!response.ok) {
-      const errorData = await response.json().catch(() => ({ 
-        error: `HTTP error! status: ${response.status}`,
-        type: 'SERVER_ERROR'
-      }));
-      
-      // Create API error
-      const apiError = createAPIError(
-        { 
-          message: errorData.error || `HTTP error! status: ${response.status}`,
-          status: response.status,
-          response: errorData
-        },
-        errorData
+      const errorData = await response.json().catch(() => ({}));
+      throw createAPIError(
+        errorData.message || `HTTP error! status: ${response.status}`,
+        errorData.type || 'API_ERROR',
+        response.status,
+        errorData.details
       );
-
-      // Check if error is retryable and we haven't exceeded max retries
-      const errorType = classifyError(apiError);
-      if (isRetryableError(apiError, errorType) && retryCount < MAX_RETRIES) {
-        const delay = getRetryDelay(retryCount, RETRY_DELAY_BASE);
-        
-        // Log retry attempt
-        if (process.env.NODE_ENV === 'development') {
-          console.warn(`⚠️ Retrying request (attempt ${retryCount + 1}/${MAX_RETRIES}) after ${delay}ms:`, endpoint);
-        }
-
-        // Wait before retrying
-        await new Promise(resolve => setTimeout(resolve, delay));
-        
-        // Retry the request
-        return fetchAPI(endpoint, options, retryCount + 1);
-      }
-
-      // Log error for debugging
-      logError(apiError, `API Request to ${endpoint}`);
-      
-      throw apiError;
     }
 
     return response.json();

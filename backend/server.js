@@ -18,28 +18,46 @@ const corsOptions = {
     // Allow requests with no origin (like mobile apps, curl, etc.)
     if (!origin) return callback(null, true);
     
+    // Define allowed origins
     const allowedOrigins = [
+      // Production domains
       'https://puzzcode.vercel.app',
-      'https://puzzcode-git-main-kurogames77.vercel.app',
+      'https://puzzcode-backend-2.vercel.app',
+      // Development domains
       'http://localhost:3000',
       'http://localhost:3001',
-      ...(process.env.CORS_ORIGIN ? process.env.CORS_ORIGIN.split(',').map(s => s.trim()) : [])
+      // Vercel preview URLs (all subdomains)
+      /^https?:\/\/puzzcode-[a-z0-9-]+\.vercel\.app$/,
+      /^https?:\/\/puzzcode-git-[a-z0-9-]+-kurogames77\.vercel\.app$/,
+      // Additional domains from environment variable
+      ...(process.env.CORS_ORIGIN ? process.env.CORS_ORIGIN.split(',').map(s => s.trim().replace(/\/+$/, '')) : [])
     ];
 
-    // Allow all subdomains of vercel.app in development
-    if (process.env.NODE_ENV === 'development' && origin.endsWith('.vercel.app')) {
-      return callback(null, true);
+    // In development, allow all localhost and vercel.app subdomains
+    if (process.env.NODE_ENV !== 'production') {
+      if (origin.startsWith('http://localhost:') || origin.endsWith('.vercel.app')) {
+        return callback(null, true);
+      }
     }
 
-    // Check against allowed origins
-    if (allowedOrigins.includes(origin) || 
-        (process.env.NODE_ENV !== 'production' && origin.startsWith('http://localhost'))) {
+    // Check if origin matches any allowed pattern
+    const isAllowed = allowedOrigins.some(pattern => {
+      if (typeof pattern === 'string') {
+        return pattern === origin;
+      } else if (pattern instanceof RegExp) {
+        return pattern.test(origin);
+      }
+      return false;
+    });
+
+    if (isAllowed) {
       return callback(null, true);
     }
 
     // Log blocked origins for debugging
     console.log('CORS blocked origin:', origin);
-    callback(new Error('Not allowed by CORS'));
+    console.log('Allowed origins:', allowedOrigins);
+    callback(new Error(`Not allowed by CORS. Origin: ${origin}`));
   },
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
@@ -51,11 +69,45 @@ const corsOptions = {
 // Initialize Socket.IO with CORS
 const io = new Server(server, {
   cors: {
-    origin: corsOptions.origin,
-    methods: ['GET', 'POST'],
+    origin: (origin, callback) => {
+      // Same origin check as the main CORS config
+      if (!origin) return callback(null, true);
+      
+      const allowedOrigins = [
+        'https://puzzcode.vercel.app',
+        'https://puzzcode-backend-2.vercel.app',
+        'http://localhost:3000',
+        'http://localhost:3001',
+        /^https?:\/\/puzzcode-[a-z0-9-]+\.vercel\.app$/,
+        /^https?:\/\/puzzcode-git-[a-z0-9-]+-kurogames77\.vercel\.app$/,
+        ...(process.env.CORS_ORIGIN ? process.env.CORS_ORIGIN.split(',').map(s => s.trim().replace(/\/+$/, '')) : [])
+      ];
+
+      if (process.env.NODE_ENV !== 'production') {
+        if (origin.startsWith('http://localhost:') || origin.endsWith('.vercel.app')) {
+          return callback(null, true);
+        }
+      }
+
+      const isAllowed = allowedOrigins.some(pattern => {
+        if (typeof pattern === 'string') return pattern === origin;
+        if (pattern instanceof RegExp) return pattern.test(origin);
+        return false;
+      });
+
+      if (isAllowed) return callback(null, true);
+      
+      console.log('WebSocket CORS blocked origin:', origin);
+      callback(new Error('Not allowed by WebSocket CORS'));
+    },
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     credentials: true,
-    allowedHeaders: ['Authorization', 'Content-Type', 'X-Request-ID']
-  }
+    allowedHeaders: ['Content-Type', 'Authorization', 'X-Request-ID', 'x-requested-with']
+  },
+  // Add ping timeout and connection timeout
+  pingTimeout: 60000,
+  pingInterval: 25000,
+  connectTimeout: 45000
 });
 
 const PORT = process.env.PORT || 3001;
