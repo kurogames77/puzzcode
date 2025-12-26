@@ -1,0 +1,11 @@
+{
+  "installCommand": "npm install --prefix Front/puzzcode-landing-react",
+  "buildCommand": "npm run build --prefix Front/puzzcode-landing-react",
+  "outputDirectory": "Front/puzzcode-landing-react/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
+}
